@@ -1,0 +1,61 @@
+.aboutme {
+height:100vh;
+background-color: rgb(11, 3, 44);
+}
+
+.aboutme_section {
+    background: whitesmoke;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.aboutme_header{
+font-weight: bold;
+font-size: 2rem;
+padding: 2rem;
+color:white;
+font-family:'Nunito', sans-serif;
+}
+
+.aboutme_img_photo{
+    border:2px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 2px 2px rgb(211, 207, 207);
+    margin:1rem;
+    width:20rem;
+    height:20rem;
+}
+.aboutme_img_button{
+    cursor: pointer;
+    height: 3rem;
+    width:10rem;
+    margin-top: 4rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 5px;
+}
+
+.aboutme_text-title{
+    padding:1rem;
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.aboutme_text-content{
+    padding:1rem;
+    font-size: 1.2rem;
+    font-family: 'Nunito', sans-serif;
+}
+.aboutme_logo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:0.5rem;
+    padding-bottom:0.5rem;
+}
+img {
+    width: 45px;
+    height:45px;
+}
+
