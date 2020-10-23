@@ -5,6 +5,7 @@ import NavBar from './components/Navbar'
 import ExperineceBoard from './components/ExperienceBoard';
 
 import './App.css';
+import SkillsBoard from './components/SkillsBoard';
 
 function App() {
  return (
@@ -13,6 +14,7 @@ function App() {
   <Slider />
   <AboutMe />
   <ExperineceBoard/>
+  <SkillsBoard />
     </div>
   );
 }
