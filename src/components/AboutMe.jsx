@@ -1,8 +1,8 @@
 import React from 'react'
 import photo from '../images/profile_photo.jpg'
-import gmail from '../images/gmail.png'
-import linkedin from '../images/linkedin.png'
-import github from '../images/github.png'
+import gmail from '../images/logos/gmail.png'
+import linkedin from '../images/logos/linkedin.png'
+import github from '../images/logos/github.png'
 
 
 import '../styles/AboutMe.css'
