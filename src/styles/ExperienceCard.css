@@ -1,0 +1,23 @@
+.experience_card{
+    background-color: whitesmoke;
+    height:fit-content;
+    max-width: 60rem;
+    margin:3rem;
+    padding:0.5rem;
+}
+
+.experience_header{
+    font-size: 1.3rem; 
+font-family:'Nunito', sans-serif;
+color: rgb(11, 3, 44);
+margin:.4rem;
+}
+.experience_subtitle{
+font-family:'Nunito', sans-serif;
+font-size:1.1rem ;
+
+}
+.experience_text {
+    font-family:'Nunito', sans-serif;
+    padding: .5rem;
+}

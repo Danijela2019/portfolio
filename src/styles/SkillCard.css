@@ -1,0 +1,16 @@
+.skill-card_main {
+    background-color: rgb(11, 3, 44);
+    width:20rem;
+    height:8rem;
+    margin:1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-card_logo_img {
+width: auto;
+margin:.5rem;
+}
+

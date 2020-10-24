@@ -1,0 +1,19 @@
+export const css = require('./logos/css.png');
+export const html = require ('../images/logos/html.png');
+export const js = require ('../images/logos/js.png');
+export const nodejs = require ('../images/logos/nodejs.png');
+export const  react = require ('../images/logos/react.png');
+export const  react_native = require ('../images/logos/react_native.png');
+export const ts = require ( '../images/logos/typescript.png');
+export const java = require ('../images/logos/java.png');
+export const pug = require ('../images/logos/pug.png');
+export const  git = require ('../images/logos/git.png');
+export const postgres = require ('../images/logos/postgres.png');
+export const mongoDB = require ('../images/logos/mongoDB.png'); 
+export const react_bootstrap = require ('../images/logos/react_bootstrap.png');
+export const sass = require ('../images/logos/sass.png');
+export const styled_components = require ('../images/logos/styled_components.png');
+
+export  const image1 = require('../images/slideImages/image1.jpg');
+export  const image2 = require('../images/slideImages/image2.jpg');
+export  const image3 = require('../images/slideImages/image3.jpg');

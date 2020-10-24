@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-const ImgComponent =({src}) =>{
+const ImgComponent =({src, children}) =>{
 
     const imgStyles = {
      width:100+"%",
@@ -12,7 +12,7 @@ const ImgComponent =({src}) =>{
         <div  className="background">
         <img src={src} style={imgStyles} alt=""></img>
         <div className="centered">
-    <h1 className='transboxP'>Welcome to my portfolio page</h1>
+    <h1 className='transboxP'>{children}</h1>
   </div>
   </div>
          )
