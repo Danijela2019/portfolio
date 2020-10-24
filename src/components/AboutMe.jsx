@@ -14,7 +14,7 @@ const AboutMe = () => {
     <section className="aboutme_section">
         <article className="aboutme_img_article">
             <img className="aboutme_img_photo" src={photo} alt=""></img>
-            <a href="https://docs.google.com/document/d/1mEDFPVy-RQSfMiw3b5uEuhzSAcUwbNwG05z5vp1RIWw/edit">
+            <a href="https://drive.google.com/file/d/1HaOb84vAzgvN4Y-dYkd1-43UZFX0kT4a/view" rel="noopener noreferrer">
                 <button className="aboutme_img_button">Check my CV</button>
             </a>
         </article>
@@ -32,12 +32,14 @@ const AboutMe = () => {
              <p className="aboutme_text-content">I have a passion for teaching, I would love to become a mentor one day and teach others what I know or maybe start writing blog very soon :-)</p>
              <p className="aboutme_text-content"> You want to know more about me, or my projects please fell free to contact me: </p>
             <div className="aboutme_logo-container">
-                <img src={gmail} alt="gmail logo"></img>
+                <a href="mailto:danijela.milenkovic@appliedtechnology.se">
+                    <img src={gmail} alt="gmail logo"></img>
+                </a>
                 <a href="https://www.linkedin.com/in/danijela-milenkovic-926b0a57/" >
-                <img src={linkedin} alt="linkedin logo"></img>
+                    <img src={linkedin} alt="linkedin logo"></img>
                 </a>
                 <a href="https://github.com/Danijela2019">
-                <img src={github} alt="github logo"></img>
+                    <img src={github} alt="github logo"></img>
                 </a>
             </div>
         </article>

@@ -3,20 +3,13 @@ import React,{useState} from 'react';
 
 import '../styles/Slider.css'
 import ImgComponent from './ImgComponent';
-import image1 from '../slideImages/image1.jpg'
-import image2 from '../slideImages/image2.jpg'
-import image3 from '../slideImages/image3.jpg'
-
-let styles = {
-    width: '100vw',
-    height: '100vh'
-  };
+import {image1, image2, image3} from  '../images'
 
 const Slider =() => {
     let sliderArr=[
-    <ImgComponent src={image1} alt="computer"></ImgComponent>,
-    <ImgComponent src={image2} alt="keyboard"></ImgComponent>,
-    <ImgComponent src={image3} alt="laptop"></ImgComponent>]
+    <ImgComponent src={image1} alt="computer">Welcome to my portfolio</ImgComponent>,
+    <ImgComponent src={image2} alt="keyboard">A jurney through my career path</ImgComponent>,
+    <ImgComponent src={image3} alt="laptop">How I become a software developer</ImgComponent>]
     const [x,setX]= useState(0);
 
     const goLeft = () => {

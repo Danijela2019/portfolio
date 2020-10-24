@@ -17,22 +17,6 @@
     font-family:'Nunito', sans-serif;
     padding-top: 0.5rem;
 }
-.skill-card_main {
-    background-color: rgb(11, 3, 44);
-    width:20rem;
-    height:8rem;
-    margin:1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.skill-card_logo_img {
-width: auto;
-margin:.5rem;
-}
-
 .skill-card_button {
     cursor: pointer;
     height: 2rem;
@@ -56,4 +40,15 @@ margin:.5rem;
 .skill-card_bottom_header{
 color: white;
 font-family:'Nunito', sans-serif;
+}
+.skills_section_card{
+    background-color: whitesmoke;
+    width: 20rem;
+    height: 28rem;
+}
+.skills_section_article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
 }
