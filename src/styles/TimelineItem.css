@@ -1,0 +1,38 @@
+.timeline_item {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    position: relative;
+    margin: 10px 0;
+    width: 50%;
+}
+.timeline_item_button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.timeline_item_button{
+    cursor: pointer;
+    height: 2rem;
+    width:5rem;
+    margin:1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 5px;
+}
+
+.timeline_item_img {
+    width:100%;
+    height:auto;
+}
+.timeline_item_title{
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.timeline_item:nth-child(odd) {
+    align-self: flex-end;
+    justify-content: flex-start;
+    padding-left: 30px;
+    padding-right: 0;
+}

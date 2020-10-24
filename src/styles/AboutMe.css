@@ -30,7 +30,7 @@ font-family:'Nunito', sans-serif;
     cursor: pointer;
     height: 3rem;
     width:10rem;
-    margin-top: 4rem;
+    margin-top: 1.5rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     border-radius: 5px;
@@ -44,8 +44,8 @@ font-family:'Nunito', sans-serif;
 
 .aboutme_text-content{
     padding:1rem;
-    font-size: 1.2rem;
     font-family: 'Nunito', sans-serif;
+    font-size:1.2rem;
 }
 .aboutme_logo-container{
     display: flex;

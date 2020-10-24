@@ -11,9 +11,9 @@
 .experience_header {
     font-weight: bold;
     font-size: 2rem;
-    padding: 2rem;
     color:white;
     font-family:'Nunito', sans-serif;
+    padding-top:.5rem;
 }
 .experience_section {
     display:flex;
@@ -56,5 +56,4 @@ font-size:1.1rem ;
     flex-direction: row;
     flex-wrap:wrap;
     justify-content: center;
-    margin: rem;
 }

@@ -1,20 +1,21 @@
 .skills_main {
     background-color: whitesmoke;
-    height: 100vh;
+    margin-bottom:4.7rem;
 }
 .skills-card_container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-bottom: 0.5rem;
 }
 
 .skills_header {
     font-weight: bold;
     font-size: 2rem;
-    padding: 2rem;
     color:rgb(11, 3, 44);
     font-family:'Nunito', sans-serif;
+    padding-top: 0.5rem;
 }
 .skill-card_main {
     background-color: rgb(11, 3, 44);
