@@ -6,6 +6,7 @@ import ExperineceBoard from './components/ExperienceBoard';
 
 import './App.css';
 import SkillsBoard from './components/SkillsBoard';
+import TimelineBoard from './components/TimelineBoard';
 
 function App() {
  return (
@@ -15,6 +16,7 @@ function App() {
   <AboutMe />
   <ExperineceBoard/>
   <SkillsBoard />
+  <TimelineBoard />
     </div>
   );
 }

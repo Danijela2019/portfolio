@@ -1,0 +1,113 @@
+.timeline_main {
+    background-color: rgb(11, 3, 44);
+    margin:0;
+}
+.timeline_header {
+    font-weight: bold;
+    font-size: 2rem;
+    color: whitesmoke;
+    font-family:'Nunito', sans-serif;
+    padding-top: 0.5rem;
+}
+
+
+
+.timeline_container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 40px 0; 
+}
+
+.timeline_container::after {
+    background-color: whitesmoke;
+    content: '';
+    position: absolute;
+    left: calc(50% - 2px);
+    width: 4px;
+    height: 100%;
+}
+.timeline_item_content {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: rgb(222, 218, 233);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 15px;
+    position: relative;
+    width: 400px;
+    max-width: 70%;
+    text-align: right;
+}
+
+.timeline_item_content::after {
+    content: ' ';
+    background-color: #fff;
+    box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    right: -7.5px;
+    top: calc(50% - 7.5px);
+    transform: rotate(45deg);
+    width: 15px;
+    height: 15px;
+}
+
+.timeline_item:nth-child(odd) .timeline_item_content {
+    text-align: left;
+    align-items: flex-start;
+}
+
+.timeline_item:nth-child(odd) .timeline_item_content::after {
+    right: auto;
+    left: -7.5px;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.timeline_item_content .tag {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    top: 5px;
+    left: 5px;
+    letter-spacing: 1px;
+    padding: 5px;
+    position: absolute;
+    text-transform: uppercase;
+}
+
+.timeline_item:nth-child(odd) .timeline_item_content .tag {
+    left: auto;
+    right: 5px;
+}
+
+.timeline_item_content time {
+    color: #777;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.timeline_item_content p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 15px 0;
+    max-width: 250px;
+}
+
+
+
+.timeline_item_content .circle {
+    background-color: #fff;
+    border: 3px solid rgb(236, 208, 226);
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 10px);
+    right: -40px;
+    width: 20px;
+    height: 20px;
+    z-index: 100;
+}
+
+.timeline_item:nth-child(odd) .timeline_item_content .circle {
+    right: auto;
+    left: -40px;
+}
