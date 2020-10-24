@@ -5,10 +5,10 @@ const timelineData= [
         img : 'projects/weatherapp.png',
         link: {
             url1:
-                'https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2',
+                'https://theweatherapp2020.herokuapp.com/nearby?lat=59.4252798&lon=17.8178287',
             text1: 'Demo',
             url2:
-                'https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2',
+                'https://github.com/Danijela2019/The-weather-app',
             text2: 'Code'
         },
     },
@@ -18,28 +18,16 @@ const timelineData= [
         img : 'projects/mymovieapp.png',
         link: {
             url1:
-                'https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2',
+                'https://mymovieapp2020.herokuapp.com/',
             text1: 'Demo',
             url2:
-                'https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2',
+                'https://github.com/Danijela2019/Movie-app',
             text2: 'Code'
         },
     },
     
     
 ]
-/*{
-    text: 'My second item on a timeline',
-    date: 'October 27 2020',
-    category: {
-        tag: 'medium',
-        color: '#018f69'
-    },
-    link: {
-        url:
-            'https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2',
-        text: 'Read more'
-    }
-}, */
+
 
 export default timelineData;
