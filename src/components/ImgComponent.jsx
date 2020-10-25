@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-
 const ImgComponent =({src, children}) =>{
 
     const imgStyles = {
