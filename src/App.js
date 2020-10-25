@@ -3,10 +3,10 @@ import Slider from './components/Slider'
 import AboutMe from './components/AboutMe'
 import NavBar from './components/Navbar'
 import ExperineceBoard from './components/ExperienceBoard';
-
-import './App.css';
 import SkillsBoard from './components/SkillsBoard';
 import TimelineBoard from './components/TimelineBoard';
+import Footer from './components/Footer'
+import './App.css';
 
 function App() {
  return (
@@ -17,6 +17,7 @@ function App() {
   <ExperineceBoard/>
   <SkillsBoard />
   <TimelineBoard />
+  <Footer />
     </div>
   );
 }
