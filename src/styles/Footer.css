@@ -1,6 +1,6 @@
 .footer {
-    background-color: black;
-    color: whitesmoke;
+    background-color: whitesmoke;;
+    color: black;
     font-family:'Nunito', sans-serif;
     padding : .2rem;
     margin:0;
@@ -10,9 +10,9 @@
         left: 0;
         bottom: 0;
         width: 100%;
-        color: whitesmoke;
+        color: black;
         text-align: center;
-        background-color: black;
+        background-color: rgb(182, 181, 187);
         padding: .2rem;
       }
       .copyright:before {
