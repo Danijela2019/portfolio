@@ -2,6 +2,7 @@
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     height:10vh;
     background-color:rgb(182, 181, 187)
 }
@@ -13,6 +14,7 @@
 .main-nav .active {
     color: rgb(11, 3, 44);
     background-color: whitesmoke;
+    padding: 1.2rem;
 }
 
 .navbar_item{
@@ -21,8 +23,10 @@
 }
 
 .navbar_logo {
-    margin-top: 0.5rem;
-}
+    width: 150px;
+    height: 50px;
+    margin: .5rem;
+   }
 
 .navbar_title {
     color: rgb(11, 3, 44);
