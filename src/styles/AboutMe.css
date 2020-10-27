@@ -1,5 +1,5 @@
 .aboutme {
-
+height:91vh;
 background-color: rgb(11, 3, 44);
 }
 
@@ -13,7 +13,7 @@ background-color: rgb(11, 3, 44);
 .aboutme_header{
 font-weight: bold;
 font-size: 2rem;
-padding: 2rem;
+padding: 1rem;
 color:white;
 font-family:'Nunito', sans-serif;
 }
@@ -45,7 +45,6 @@ font-family:'Nunito', sans-serif;
 .aboutme_text-content{
     padding:1rem;
     font-family: 'Nunito', sans-serif;
-    font-size:1.2rem;
 }
 .aboutme_logo-container{
     display: flex;
