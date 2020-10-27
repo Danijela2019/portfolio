@@ -1,6 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import portfolio from '../images/portfolio.png'
 import '../styles/NavBar.css'
+
 
 const navLinkStyle = {
 textDecoration: 'none',
@@ -16,7 +18,10 @@ const NavBar = () => {
     return (
 
 <div className="navbar_container">
-    <span className="logo"></span>
+    <div className="navbar_logo_and_title_container">
+    <img className="navbar_logo" src={portfolio} alt="Portfolio logo"/> 
+    <h1 className="navbar_title">My portofolio</h1>
+    </div>
     <ul className="main-nav">
     <li className="navbar_item"><NavLink exact to="/"  style={navLinkStyle}>Home</NavLink></li>
     <li className="navbar_item"><NavLink to="/about"  style={navLinkStyle}>About</NavLink></li>
