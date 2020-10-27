@@ -105,7 +105,7 @@ const timelineData= [
     },
     {
         text: 'Github-network',
-        date: 'September 15 2020',
+        date: 'October 15 2020',
         img : 'projects/github.png',
         link: {
             url1:

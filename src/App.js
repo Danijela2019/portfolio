@@ -1,24 +1,31 @@
 import React from 'react';
-import Slider from './components/Slider'
-import AboutMe from './components/AboutMe'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import Home from './pages/Home'
+import About from './pages/About'
+import Experience from './pages/Experience'
+import Skills from './pages/Skills'
+import Projects from './pages/Projects'
 import NavBar from './components/Navbar'
-import ExperineceBoard from './components/ExperienceBoard';
-import SkillsBoard from './components/SkillsBoard';
-import TimelineBoard from './components/TimelineBoard';
-import Footer from './components/Footer'
+import NotFound from './components/NotFound'
+
 import './App.css';
 
 function App() {
  return (
-    <div className="App">
-    <NavBar />
-  <Slider />
-  <AboutMe />
-  <ExperineceBoard/>
-  <SkillsBoard />
-  <TimelineBoard />
-  <Footer />
-    </div>
+   <BrowserRouter>
+      <div className="App">
+        <NavBar />
+        <Switch>
+          <Route exact path="/" component={Home}/>
+          <Route  path="/about" component={About}/>
+          <Route  path="/experience" component={Experience}/>
+          <Route  path="/skills" component={Skills}/>
+          <Route  path="/projects" component={Projects}/>
+          <Route component={NotFound}/>
+        </Switch>
+      </div>
+    </BrowserRouter>
+    
   );
 }
 
