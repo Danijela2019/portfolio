@@ -57,7 +57,7 @@ const timelineData= [
         img : 'projects/foodmap.png',
         link: {
             url1:
-                '',
+                'https://www.youtube.com/watch?v=YS-yhggkqfs&list=PLDqoWWdtjihDmmhNXVuvsLikn7Lhapcmw&index=3&ab_channel=%E3%80%88%2Fsalt%E3%80%89SchoolofAppliedTechnology',
             text1: 'Video',
             url2:
                 'https://github.com/Danijela2019/Food-Map',
@@ -97,10 +97,10 @@ const timelineData= [
         link: {
             url1:
                 'https://github.com/Danijela2019/DoggyApp',
-            text1: 'Code F',
+            text1: 'Frontend Code',
             url2:
                 'https://github.com/Danijela2019/DoggyApp-backEnd',
-            text2: 'Code B'
+            text2: 'Backend Code'
         },
     },
     {

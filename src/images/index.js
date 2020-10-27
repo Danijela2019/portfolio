@@ -13,6 +13,7 @@ export const mongoDB = require ('../images/logos/mongoDB.png');
 export const react_bootstrap = require ('../images/logos/react_bootstrap.png');
 export const sass = require ('../images/logos/sass.png');
 export const styled_components = require ('../images/logos/styled_components.png');
+export const react_router = require ('../images/logos/react_router.png');
 
 export  const image1 = require('../images/slideImages/image1.jpg');
 export  const image2 = require('../images/slideImages/image2.jpg');
