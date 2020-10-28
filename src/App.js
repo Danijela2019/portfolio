@@ -7,13 +7,16 @@ import Skills from './pages/Skills'
 import Projects from './pages/Projects'
 import NavBar from './components/Navbar'
 import NotFound from './components/NotFound'
+import Footer from './components/Footer'
 
 import './App.css';
+import ScrollToTop from './components/ScrollToTheTop';
 
 function App() {
  return (
    <BrowserRouter>
       <div className="App">
+      <ScrollToTop />
         <NavBar />
         <Switch>
           <Route exact path="/" component={Home}/>
@@ -23,6 +26,7 @@ function App() {
           <Route  path="/projects" component={Projects}/>
           <Route component={NotFound}/>
         </Switch>
+        <Footer />
       </div>
     </BrowserRouter>
     

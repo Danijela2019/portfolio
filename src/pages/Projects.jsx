@@ -4,10 +4,10 @@ import Footer from '../components/Footer'
 
 const Projects = () => {
     return (
-      <>
+      <React.Fragment>
       <TimelineBoard />
         <Footer />
-        </>
+      </React.Fragment>
     )
   
 }
