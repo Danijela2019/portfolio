@@ -7,13 +7,13 @@ const ImgComponent =({src, children}) =>{
      height:'auto',
     }
     return (
-        <div  className="background">
-        <img src={src} style={imgStyles} alt=""></img>
-        <div className="centered">
-    <h1 className='transboxP'>{children}</h1>
-  </div>
-  </div>
-         )
+        <div className="background">
+            <img src={src} style={imgStyles} alt=""></img>
+            <div className="centered">
+                <h1 className='transboxP'>{children}</h1>
+            </div>
+        </div>
+    )
 
 }
 export default ImgComponent; 

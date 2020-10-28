@@ -20,7 +20,6 @@ const TimelineBoard = () => {
                 {timelineCards}
             </section>
         </main>
-        
     )
 }
 

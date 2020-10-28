@@ -16,16 +16,16 @@ transition: '0.2s'
 
  const NavBar = () => { 
     return (
-<div className="navbar_container sticky">
-    <img className="navbar_logo" src={portfolio} alt="Portfolio logo"/> 
-    <ul className="main-nav">
-        <li className="navbar_item"><NavLink exact to="/"  style={navLinkStyle}>Home</NavLink></li>
-        <li className="navbar_item"><NavLink to="/about"  style={navLinkStyle}>About</NavLink></li>
-        <li className="navbar_item"><NavLink to="/experience" style={navLinkStyle}>Experience</NavLink></li>
-        <li className="navbar_item"><NavLink to="/skills"  style={navLinkStyle}>Skills</NavLink></li>
-        <li className="navbar_item"><NavLink to="/projects"  style={navLinkStyle}>Projects</NavLink></li>
-    </ul>
-</div>
+        <nav className="navbar_container sticky">
+            <img className="navbar_logo" src={portfolio} alt="Portfolio logo"/> 
+            <ul className="main-nav">
+                <li className="navbar_item"><NavLink exact to="/" style={navLinkStyle}>Home</NavLink></li>
+                <li className="navbar_item"><NavLink to="/about" style={navLinkStyle}>About</NavLink></li>
+                <li className="navbar_item"><NavLink to="/experience" style={navLinkStyle}>Experience</NavLink></li>
+                <li className="navbar_item"><NavLink to="/skills" style={navLinkStyle}>Skills</NavLink></li>
+                <li className="navbar_item"><NavLink to="/projects" style={navLinkStyle}>Projects</NavLink></li>
+            </ul>
+        </nav>
     )
 }
 
