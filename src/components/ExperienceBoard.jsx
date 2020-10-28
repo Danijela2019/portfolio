@@ -5,8 +5,10 @@ import ExperienceCard from './ExperienceCard'
 
 const experienceData = [
     {
+        id:1,
         title: "Software developement academy",
-        subtitle: "( Computer Software Engineering / September 2019-December 2019)",
+        subtitle: "Computer Software Engineering ",
+        duration: 'Septmeber2019 -December 2019',
         description:  `The Software Development Academy is a unique collaboration
         between Novare Potential and KTH that educates engaged talents from 
         all over the world, ready to take on the IT challenges of the future
@@ -15,8 +17,10 @@ const experienceData = [
         HTML CSS and JavaScript, Basic SQL Databases, GitHub`
     },
     {
+        id:2,
         title: "School of applied technologies (SALT)",
-        subtitle: "( Full-stack JavaScript developer / April 2020-July 2020)",
+        subtitle: "Full-stack JavaScript developer",
+        duration: "April 2020-July 2020",
         description: `Highly paced and very intense training program at Epicenter in Stockholm 
         for for the highly motivated individuals who are ready to focus,
          work hard and complete the program to launch their new career in tech.
@@ -26,9 +30,9 @@ const experienceData = [
     }
 ]
 
-const skillsCards =  experienceData.map((data,index) => (
+const skillsCards =  experienceData.map((data) => (
     <ExperienceCard
-    data={data} key={index} />
+    data={data} key={data.id} />
 ))
 
 

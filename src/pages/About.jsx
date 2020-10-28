@@ -1,11 +1,21 @@
 import React from 'react';
-import Aboutme from '../components/AboutMe'
+import AboutMe from '../components/AboutMe'
+import ExperienceBoard from '../components/ExperienceBoard';
+import Footer from '../components/Footer';
+import SkillsBoard from '../components/SkillsBoard'
+import TimelineBoard from '../components/TimelineBoard';
 
 const About = () => {
     return (
-        <Aboutme />
-    )
+    <React.Fragment>
+    <AboutMe />
+    <ExperienceBoard />
+    <SkillsBoard />
+    <TimelineBoard />
+    <Footer />
+ </React.Fragment>
   
+    )
 }
 
 export default About;

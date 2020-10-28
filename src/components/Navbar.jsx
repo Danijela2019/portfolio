@@ -14,9 +14,9 @@ transition: '0.2s'
 
 
 
-const NavBar = () => { 
+ const NavBar = () => { 
     return (
-<div className="navbar_container">
+<div className="navbar_container sticky">
     <img className="navbar_logo" src={portfolio} alt="Portfolio logo"/> 
     <ul className="main-nav">
         <li className="navbar_item"><NavLink exact to="/"  style={navLinkStyle}>Home</NavLink></li>
@@ -28,4 +28,5 @@ const NavBar = () => {
 </div>
     )
 }
+
 export default NavBar;
