@@ -31,8 +31,7 @@ const experienceData = [
 ]
 
 const skillsCards =  experienceData.map((data) => (
-    <ExperienceCard
-    data={data} key={data.id} />
+    <ExperienceCard data={data} key={data.id} />
 ))
 
 

@@ -7,7 +7,7 @@ import github from '../images/logos/github.png'
 
 import '../styles/AboutMe.css'
 
-function EmojiHand() {
+const EmojiHand = () => {
     return (
         <Emoji symbol="👋 " label="Waiving hand" />
     )
