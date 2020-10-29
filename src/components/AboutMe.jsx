@@ -16,7 +16,7 @@ const EmojiHand = () => {
 
 const AboutMe = () => { 
     return (
-<main className="aboutme">
+<main className="aboutme_main">
     <h1 className="aboutme_header">About me</h1>
     <section className="aboutme_section">
         <article className="aboutme_img_article">

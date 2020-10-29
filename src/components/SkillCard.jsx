@@ -2,9 +2,7 @@ import React from 'react'
 import '../styles/SkillCard.css'
 
     
-
-
-const SkillCard =({data})=> {
+const SkillCard = ({data}) => {
     return(
     <main className="skill-card_main">
         <section className="skill-card_logos">

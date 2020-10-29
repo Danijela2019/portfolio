@@ -1,19 +1,16 @@
 import React from 'react'
 
-const SliderItem =({src, children}) =>{
+import '../styles/SliderItem.css'
 
-    const imgStyles = {
-     width:100+"%",
-     height:'auto',
-    }
+const SliderItem =({src, children})  => {
     return (
-        <div className="background">
-            <img src={src} style={imgStyles} alt=""></img>
-            <div className="centered">
-                <h1 className='transboxP'>{children}</h1>
+        <section className="background">
+            <img className="background_image" src={src} alt=""></img>
+            <div className="background_transparent">
+                <h1 className='background_text'>{children}</h1>
             </div>
-        </div>
+        </section>
     )
-
 }
+
 export default SliderItem; 

@@ -1,6 +1,6 @@
 .experience_main {
     background-color: rgb(11, 3, 44);
-    height:91vh;
+    height:90vh;
 }
 
 .experience_section {
@@ -23,5 +23,11 @@
 
 .skills_section_header {
     font-size: 1.3rem; 
-font-family:'Nunito', sans-serif;
 }
+
+@media only screen and (max-width: 767px) {
+    .experience_main {
+        height:auto;
+    }
+}
+    

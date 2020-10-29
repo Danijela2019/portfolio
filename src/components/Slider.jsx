@@ -1,29 +1,19 @@
 import React,{useState} from 'react';
-import SliderItem from './SliderItem';
-
-import '../styles/Slider.css'
-import {image1, image2, image3} from  '../images'
-import {IconContext} from "react-icons"
 import {BsChevronCompactLeft} from "react-icons/bs"
 import {BsChevronCompactRight} from "react-icons/bs"
 
-const IconPlacer = ({ children }) => {
-  return (
-      <IconContext.Provider value={{ style: {fontSize: '40px', color: "black"}}}>
-      <div>
-          { children }
-      </div>
-    </IconContext.Provider>
-   )
-}
+import SliderItem from './SliderItem';
+import Icon from './Icon';
+import '../styles/Slider.css'
+import {image1, image2, image3} from  '../images'
 
 
-
-const Slider =() => {
+const Slider = () => {
     let sliderArr=[
-    <SliderItem src={image1} alt="computer">Welcome to my portfolio</SliderItem>,
-    <SliderItem src={image2} alt="keyboard">A jurney through my career path</SliderItem>,
-    <SliderItem src={image3} alt="laptop">How I become a software developer</SliderItem>];
+        <SliderItem src={image1} alt="computer">Welcome to my portfolio</SliderItem>,
+        <SliderItem src={image2} alt="keyboard">A jurney through my career path</SliderItem>,
+        <SliderItem src={image3} alt="laptop">How I become a software developer</SliderItem>
+    ];
 
     const [x,setX]= useState(0);
 
@@ -37,25 +27,26 @@ const Slider =() => {
         setX(x-100);
     };
 
+    const images = sliderArr.map((item,index) => {
+        return (
+            <section key={index} className='slider_slide' style={{transform:`translateX(${x}%)`}}>{item} </section>
+      )
+    })
+
     return (
-        <div className='slider'>
-            { sliderArr.map((item,index)=> {
-                  return (
-                      <div  key={index} className='slide' style={{transform:`translateX(${x}%)`}}>{item}</div>
-                )
-              })
-            } 
-            <button className='goLeft' onClick={goLeft}>
-                <IconPlacer>
+        <main className='slider_main'>
+            { images } 
+            <button className='slider_goleft_button' onClick={goLeft}>
+                <Icon>
                     <BsChevronCompactLeft />
-                </IconPlacer>
+                </Icon>
             </button>
-            <button className='goRight' onClick={goRight}>
-                <IconPlacer>
+            <button className='slider_goright_button' onClick={goRight}>
+                <Icon>
                     <BsChevronCompactRight />
-                </IconPlacer>
+                </Icon>
             </button>
-        </div>
+        </main>
     )
 }
 
