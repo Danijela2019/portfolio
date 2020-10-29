@@ -1,0 +1,29 @@
+.background_image {
+    width: 100%;
+    height: auto;
+}
+
+.background_text {
+    margin: 3rem;
+    font-weight: bold;
+    color: #000000;
+    width: 100vw;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+}
+
+.background_transparent {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 767px) {
+    .background_transparent {
+        top: 100%;
+    }
+}

@@ -4,26 +4,26 @@ import portfolio from '../images/portfolio11.png'
 import '../styles/NavBar.css'
 
 
-const navLinkStyle = {
-textDecoration: 'none',
-color:"black",
-fontFamily: 'Nunito, sans-serif',
-textTransform: 'uppercase',
-transition: '0.2s'
-}
-
-
-
- const NavBar = () => { 
+const NavBar = () => { 
     return (
         <nav className="navbar_container">
             <img className="navbar_logo" src={portfolio} alt="Portfolio logo"/> 
             <ul className="main-nav">
-                <li className="navbar_item"><NavLink exact to="/" style={navLinkStyle}>Home</NavLink></li>
-                <li className="navbar_item"><NavLink to="/about" style={navLinkStyle}>About</NavLink></li>
-                <li className="navbar_item"><NavLink to="/experience" style={navLinkStyle}>Experience</NavLink></li>
-                <li className="navbar_item"><NavLink to="/skills" style={navLinkStyle}>Skills</NavLink></li>
-                <li className="navbar_item"><NavLink to="/projects" style={navLinkStyle}>Projects</NavLink></li>
+                <li className="navbar_item">
+                    <NavLink className="navbar_link" exact to="/">Home</NavLink>
+                </li>
+                <li className="navbar_item">
+                    <NavLink className="navbar_link" to="/about">About</NavLink>
+                </li>
+                <li className="navbar_item">
+                    <NavLink className="navbar_link" to="/experience">Experience</NavLink>
+                </li>
+                <li className="navbar_item">
+                    <NavLink className="navbar_link" to="/skills">Skills</NavLink>
+                </li>
+                <li className="navbar_item">
+                    <NavLink className="navbar_link" to="/projects">Projects</NavLink>
+                </li>
             </ul>
         </nav>
     )

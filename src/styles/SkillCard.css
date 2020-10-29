@@ -14,3 +14,13 @@ width: auto;
 margin:.5rem;
 }
 
+.skill-card_button{
+    margin:.5rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .experience-card {
+        margin-bottom: 2rem;
+    }
+}
+    

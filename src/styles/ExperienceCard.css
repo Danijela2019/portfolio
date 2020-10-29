@@ -1,4 +1,4 @@
-.experience_card{
+.experience_card {
     background-color: whitesmoke;
     height:fit-content;
     max-width: 60rem;
@@ -6,24 +6,28 @@
     padding:0.5rem;
 }
 
-.experience_header{
+.experience_header {
     font-size: 1.3rem; 
     color: rgb(11, 3, 44);
     margin:.4rem;
 }
-.experience_subtitle{
+.experience_subtitle {
     font-size:1.1rem ;
 }
-.experience_card_header_wrapper{
+.experience_card_header_wrapper {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
- 
-
-
 .experience_text {
    padding: .5rem;
 }
+
+@media only screen and (max-width: 767px) {
+    .experience_card {
+        margin-bottom:2.5rem;
+    }
+}
+ 

@@ -2,7 +2,7 @@ import React from 'react';
 import TimelineItem from './TimelineItem'
 import '../styles/TimelineBoard.css'
 
-import timelineData from '../timeline_data.js';
+import timelineData from '../data/timeline_data.js';
 
 const timelineCards = timelineData.length > 0 ? (
     timelineData.map((data,index) => (

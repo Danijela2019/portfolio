@@ -1,7 +1,6 @@
 .footer {
-    background-color: whitesmoke;;
+    background-color: rgb(104, 98, 98);
     color: black;
-    font-family:'Nunito', sans-serif;
     padding : .2rem;
     margin:0;
 }

@@ -1,6 +1,6 @@
 import {
   css, html, js, nodejs, react, reactNative, ts, java, pug,
-} from './images';
+} from '../images';
 
 const skillData = [
   {
