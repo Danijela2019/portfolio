@@ -10,17 +10,23 @@
 }
 
 .skill-card_logo_img {
-width: auto;
-margin:.5rem;
+    height: 50px;
+    width: auto;
+    margin: 1rem;
+    padding-top: .5rem;
 }
 
-.skill-card_button{
-    margin:.5rem;
+.skill-card_button {
+    cursor: pointer;
+    height: 2rem;
+    width:10rem;
+    margin: 1rem 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 5px;
 }
 
-@media only screen and (max-width: 767px) {
-    .experience-card {
-        margin-bottom: 2rem;
-    }
-}
+
+
+
     
