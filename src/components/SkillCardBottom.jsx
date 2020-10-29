@@ -1,6 +1,6 @@
 import React from 'react'
 
-import '../styles/SkillCard.css'
+import '../styles/SkillCardBottom.css'
 import imageData from '../data/logo_img_data'
 
     
@@ -16,7 +16,7 @@ const logos = imageData.map((images) => (
 
 const SkillCardBottom = () => {
             return (
-                <main className="skill-card_bottom">
+                <main className="skill-card_bottom_main">
                 <h1 className="skill-card_bottom_header">Other skills </h1>
                 <section className="skill-card_bottom_logos">
                    {logos}
