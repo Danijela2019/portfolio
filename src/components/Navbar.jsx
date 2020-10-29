@@ -16,7 +16,7 @@ transition: '0.2s'
 
  const NavBar = () => { 
     return (
-        <nav className="navbar_container sticky">
+        <nav className="navbar_container">
             <img className="navbar_logo" src={portfolio} alt="Portfolio logo"/> 
             <ul className="main-nav">
                 <li className="navbar_item"><NavLink exact to="/" style={navLinkStyle}>Home</NavLink></li>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ImgComponent =({src, children}) =>{
+const SliderItem =({src, children}) =>{
 
     const imgStyles = {
      width:100+"%",
@@ -16,4 +16,4 @@ const ImgComponent =({src, children}) =>{
     )
 
 }
-export default ImgComponent; 
+export default SliderItem; 
