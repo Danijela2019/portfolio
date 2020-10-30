@@ -72,10 +72,7 @@
     }
 
      .main-nav .active {
-        padding-left: 8rem;
-        padding-right: 8rem;
-        padding-top: .2rem;
-        padding-bottom: .2rem;
-    }
+        padding: .2rem 8rem;
+     }
 }
  
