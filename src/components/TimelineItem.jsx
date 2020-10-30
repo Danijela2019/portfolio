@@ -4,8 +4,8 @@ import React from 'react';
 
 const TimelineItem = ({ data }) =>{
     return  (
-        <main className="timeline_item">
-            <section className="timeline_item_content">
+        <section className="timeline_item">
+            <article className="timeline_item_content">
                 <time className="timeline_item_time">{data.date}</time>
                 <p className="timeline_item_title">{data.title}</p>
                 <img className="timeline_item_img" src ={require (`../images/${data.img}`)} alt="Project screen"></img>
@@ -16,11 +16,11 @@ const TimelineItem = ({ data }) =>{
                     <a href={data.link.url2} target="_blank" rel="noopener noreferrer">
                         <button className="timeline_item_button">  {data.link.button2}</button>
                     </a> 
-                </div>     
+                </div>
+                <p className="timeline_item_text">{data.text}</p>     
                 <span className="square" />
-            </section>
-        </main>
-        
+            </article>
+        </section>
     );
 }
 

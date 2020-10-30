@@ -3,8 +3,8 @@ const timelineData = [
     title: 'The weather app',
     date: 'June 5th 2020',
     img: 'projects/weatherapp.png',
-    text: `The application was buld during my SALT course, 
-      this was the first application that I build from scratch independently
+    text: `The weatherapp was buld during my SALT course. It
+       was the first application that I build from scratch independently
        using java script without my team. I chose server side rendering out of 
        curiosity how it works and the express framework for the backend.`,
       link: {
@@ -20,7 +20,7 @@ const timelineData = [
     title: 'Todo list JavaScript',
     date: 'June 25th 2020',
     img: 'projects/todo_javascript.png',
-    text: `This is another project created during my time at SALT
+    text: `The todo list is another project created during my time at SALT
        as a  weekend test assigment. The todo list
         was created using only vanilla javaScript.`,
     link: {
@@ -34,7 +34,7 @@ const timelineData = [
   },
   {
     title: 'Todo list React',
-    text: `This was a continuation of the todo list project as a weekend assigment,
+    text: `This app was a continuation of the todo list project as a weekend assigment,
      but this time it was build using the React framework.`,
     date: 'July 3th 2020',
     img: 'projects/todo_react.png',
@@ -51,7 +51,7 @@ const timelineData = [
     title: 'My movie app',
     date: 'July 15 2020',
     img: 'projects/mymovieapp.png',
-    text: `The my movie app up was created as one day project
+    text: `The my movie app  was created as a one day project
        during a Hack day at SALT. Since the hack day I developed it further. 
        It is build using vanilla java script and  the express framework for the backend.
         It is not completed yet. Next feature I will be working on is the user authentication.`,
@@ -65,7 +65,7 @@ const timelineData = [
     },
   },
   {
-    title: 'Food-Map (graduation group project)',
+    title: 'Food-Map',
     date: 'July 30th 2020',
     img: 'projects/foodmap.png',
     text: `The Food-Map project was created with my team at SALT as a graduation project.

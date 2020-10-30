@@ -31,6 +31,7 @@
     width:100%;
     height:auto;
 }
+
 .timeline_item_title {
     font-size: 1.2rem;
     margin: 1rem 0;
@@ -43,6 +44,47 @@
     padding-left: 30px;
     padding-right: 0;
 }
+
+.timeline_item_text{
+    background:rgb(189, 191, 240);
+    padding: .2rem;
+    border-radius: 5px;
+}
+
+.timeline_item_text {
+    animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+      
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+      
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+      
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+      
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+
 
 @media only screen and (max-width: 767px) {
     .timeline-item-content,
