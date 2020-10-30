@@ -1,10 +1,14 @@
 import React from 'react'
 import Emoji from 'a11y-react-emoji';
+import { FaFilePdf } from "react-icons/fa";
 
 import photo from '../images/profile_photo.jpg'
 import '../styles/AboutMe.css'
 import aboutMeData from '../data/about_me_data'
 import contactData from '../data/contact_data'
+import Icon from './Icon'
+
+
 
 const EmojiHand = () => {
     return (
@@ -37,8 +41,13 @@ const contactInfo =  contactData.map((contact, index) => (
 const ContactInformation = () => {
     return (
         <div className="aboutme_logo_container">
-            <a href="https://drive.google.com/file/d/1HaOb84vAzgvN4Y-dYkd1-43UZFX0kT4a/view" rel="noopener noreferrer">
-                <button className="aboutme_img_button">Check my CV</button>
+            <a className="aboutme_logo_cv_achor" href="https://drive.google.com/file/d/1HaOb84vAzgvN4Y-dYkd1-43UZFX0kT4a/view" rel="noopener noreferrer">
+                <button className="aboutme_logo_button">
+                    <Icon>
+                        <FaFilePdf/>
+                    </Icon>
+                    my CV
+                </button>
             </a>
             {contactInfo}
         </div>

@@ -23,13 +23,16 @@
 
 @media only screen and (max-width: 767px) {
     .background_transparent {
-        top: 100%;
+        top: 69%;
     }
     .background_text {
-        margin: 5rem;
+        margin: 9rem;
+        font-size: 1.5rem;
+        font-family: 'Open Sans Condensed', sans-serif;
+        transform: scale(1.3, 4.5);
     }
-    .background_image {
-        width: 100%;
-        height: auto;
+
+    .background_icon {
+        margin-top: 1rem;
     }
 }
