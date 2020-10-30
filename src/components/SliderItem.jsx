@@ -2,6 +2,7 @@ import React from 'react'
 
 import '../styles/SliderItem.css'
 
+
 const SliderItem =({src, children})  => {
     return (
         <section className="background">

@@ -22,13 +22,13 @@
     height:25rem;
 }
 
-.aboutme_img_button {
+.aboutme_logo_button {
     cursor: pointer;
-    height: 3rem;
-    width:10rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
     border-radius: 5px;
+}
+
+.aboutme_logo_cv_achor {
+text-decoration: none;
 }
 
 .aboutme_text_title {
@@ -48,8 +48,8 @@
 }
 
 .aboutme_logo {
-    width: 45px;
-    height:45px;
+    width: 60px;
+    height: 60px;
 }
 
 @media only screen and (max-width: 767px) {

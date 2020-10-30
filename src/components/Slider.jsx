@@ -11,8 +11,8 @@ import {image1, image2, image3} from  '../images'
 const Slider = () => {
     let sliderArr=[
         <SliderItem src={image1} alt="computer">Welcome to my portfolio</SliderItem>,
-        <SliderItem src={image2} alt="keyboard">A jurney through my career path</SliderItem>,
-        <SliderItem src={image3} alt="laptop">How I become a software developer</SliderItem>
+        <SliderItem src={image2} alt="keyboard">My name is Danijela</SliderItem>,
+        <SliderItem src={image3} alt="laptop">This is my coding jurney</SliderItem>
     ];
 
     const [x,setX]= useState(0);
