@@ -6,7 +6,7 @@ const TimelineItem = ({ data }) =>{
     return  (
         <main className="timeline_item">
             <section className="timeline_item_content">
-                <time>{data.date}</time>
+                <time className="timeline_item_time">{data.date}</time>
                 <p className="timeline_item_title">{data.title}</p>
                 <img className="timeline_item_img" src ={require (`../images/${data.img}`)} alt="Project screen"></img>
                 <div className="timeline_item_button-wrapper">
@@ -17,9 +17,10 @@ const TimelineItem = ({ data }) =>{
                         <button className="timeline_item_button">  {data.link.button2}</button>
                     </a> 
                 </div>     
-                <span className="circle" />
+                <span className="square" />
             </section>
         </main>
+        
     );
 }
 
