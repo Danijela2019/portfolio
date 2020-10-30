@@ -49,6 +49,7 @@
     text-align: center;
     color: white;
 }
+
 @media only screen and (max-width: 767px) {
     .slider_goleft_button,
     .slider_goright_button {
