@@ -6,6 +6,12 @@
     margin: 10px 0;
     width: 50%;
 }
+
+.timeline_item_time {
+    color: #777;
+    font-size: 12px;
+    font-weight: bold;
+}
 .timeline_item_button-wrapper {
     display: flex;
     flex-direction: row;
@@ -25,9 +31,10 @@
     width:100%;
     height:auto;
 }
-.timeline_item_title{
-    font-family: 'Nunito', sans-serif;
-
+.timeline_item_title {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    max-width: 250px;
 }
 
 .timeline_item:nth-child(odd) {
