@@ -4,13 +4,10 @@ import '../styles/TimelineBoard.css'
 
 import timelineData from '../data/timeline_data.js';
 
-const timelineCards = timelineData.length > 0 ? (
-    timelineData.map((data,index) => (
+const timelineCards = timelineData.map((data,index) => (
              <TimelineItem 
              data={data} key={index} />
-         ))
-     
- ): null;
+         ));
 
 const TimelineBoard = () => {
     return (
