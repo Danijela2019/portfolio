@@ -1,9 +1,6 @@
-import React,{useState} from 'react';
-import {BsChevronCompactLeft} from "react-icons/bs"
-import {BsChevronCompactRight} from "react-icons/bs"
+import React,{useState, useEffect} from 'react';
 
 import SliderItem from './SliderItem';
-import Icon from './Icon';
 import '../styles/Slider.css'
 import {image1, image2, image3} from  '../images'
 
@@ -17,15 +14,7 @@ const Slider = () => {
 
     const [x,setX]= useState(0);
 
-    const goLeft = () => {
-        x=== 0 ? setX(-100 *(sliderArr.length-1)) :
-        setX(x+100)
-    };
-
-    const goRight = () => {
-        (x===-100*(sliderArr.length-1))?setX(0): 
-        setX(x-100);
-    };
+   
 
     const images = sliderArr.map((item,index) => {
         return (
@@ -33,19 +22,18 @@ const Slider = () => {
       )
     })
 
+    useEffect(() => {
+        const Autoplay = () => {
+            (x===-100*(sliderArr.length-1))?setX(0): setX(x-100);
+            };
+        const timer = setInterval(() => {
+            Autoplay();}, 2500);
+            return () => clearInterval(timer);
+        }, [sliderArr.length,images,x]);
+      
     return (
         <main className='slider_main'>
-            { images } 
-            <button className='slider_goleft_button' onClick={goLeft}>
-                <Icon>
-                    <BsChevronCompactLeft />
-                </Icon>
-            </button>
-            <button className='slider_goright_button' onClick={goRight}>
-                <Icon>
-                    <BsChevronCompactRight />
-                </Icon>
-            </button>
+            { images }
         </main>
     )
 }
