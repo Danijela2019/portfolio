@@ -13,20 +13,24 @@ const NavBar = () => {
       }
     }
   
-return (
-    <nav >
-        <div className="navbar_toggle" onClick={showSidebar}>
-            <Icon>
-                <FaBars/>   
-            </Icon>
-        </div> 
-        <ul className="navbar_links">
-            <li className="navbar_item">
-                <NavLink className="navbar_link" onClick={showSidebar} exact to="/">Home</NavLink>
-            </li>
-            <li className="navbar_item">
-                <NavLink className="navbar_link" onClick={showSidebar} to="/about">About</NavLink>
-            </li>
+    return (
+        <div className="navbar_container">
+            <div className="navbar_wrapper">
+                <img className="navbar_logo" src={portfolio} alt="Portfolio logo"/> 
+                <div className="navbar_toggle" onClick={showSidebar}>
+                    <Icon>
+                        <FaBars/>   
+                    </Icon>
+                </div> 
+            </div>
+            <nav>
+                <ul className="navbar_links">
+                    <li className="navbar_item">
+                        <NavLink className="navbar_link" onClick={showSidebar} exact to="/">Home</NavLink>
+                    </li>
+                    <li className="navbar_item">
+                        <NavLink className="navbar_link" onClick={showSidebar} to="/about">About</NavLink>
+                    </li>
                     <li className="navbar_item">
                         <NavLink className="navbar_link" onClick={showSidebar} to="/experience">Experience</NavLink>
                     </li>
@@ -36,12 +40,11 @@ return (
                     <li className="navbar_item">
                         <NavLink className="navbar_link"  onClick={showSidebar} to="/projects">Projects</NavLink>
                     </li>
-				</ul>
-            
-       
-		
-        </nav>
+                </ul>
+            </nav>
+        </div>
     )
+
 }
 export default NavBar;
 
