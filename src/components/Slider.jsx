@@ -27,7 +27,7 @@ const Slider = () => {
             (x===-100*(sliderArr.length-1))?setX(0): setX(x-100);
             };
         const timer = setInterval(() => {
-            Autoplay();}, 2500);
+            Autoplay();}, 2000);
             return () => clearInterval(timer);
         }, [sliderArr.length,images,x]);
       
