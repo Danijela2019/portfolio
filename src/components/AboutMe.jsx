@@ -2,7 +2,7 @@ import React from 'react'
 import Emoji from 'a11y-react-emoji';
 import { FaFilePdf } from "react-icons/fa";
 
-import photo from '../images/profile_photo.jpg'
+import photo from '../images/profile_photo.png'
 import '../styles/AboutMe.css'
 import aboutMeData from '../data/about_me_data'
 import contactData from '../data/contact_data'
@@ -18,12 +18,12 @@ const EmojiHand = () => {
 
 const Paragraph = ({ text }) => {
     return (
-       <p>{text.text}</p> 
+       <p className="aboutme_paragraph">{text.text}</p> 
     )
 };
 
 const textData = aboutMeData.map((text, index) => (
-    <Paragraph  className="aboutme_text_content" text={text} key={index} />
+    <Paragraph className="aboutme_text_content" text={text} key={index} />
 ))
 
 const Contact = ({ contact }) => {
@@ -69,7 +69,7 @@ const AboutMeText = () => {
 
 const AboutMe = () => { 
     return (
-        <main className="aboutme_main">
+        <main className="aboutme_main" id="about">
             <h1 className="aboutme_header">About me</h1>
             <section className="aboutme_section">
                 <img className="aboutme_img_photo" src={photo} alt=""></img>

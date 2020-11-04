@@ -64,6 +64,7 @@
         flex-direction: row;
         justify-content: space-between;
         background-color:rgb(182, 181, 187);
+        padding: 0 .5rem;
     }
     .navbar_toggle {
         display: flex;

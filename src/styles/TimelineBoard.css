@@ -19,7 +19,7 @@
 }
 
 .timeline_container::after {
-    background-color: whitesmoke;
+    background-color:  rgb(194, 55, 13);
     content: '';
     position: absolute;
     left: calc(50% - 2px);
@@ -28,7 +28,7 @@
 }
 .timeline_item_content {
     border-radius: 5px;
-    background-color: rgb(222, 218, 233);
+    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -41,7 +41,7 @@
 
 .timeline_item_content::after {
     content: ' ';
-    background-color: whitesmoke;
+    background-color:  rgb(194, 55, 13);
     position: absolute;
     right: -7.5px;
     top: calc(50% - 7.5px);
@@ -73,4 +73,14 @@
 .square {
     right: auto;
     left: -40px;
+}
+
+@media only screen and (max-width: 767px) {
+    .timeline_container::after {
+        left: calc(11% - 2px);
+    }
+    .timeline_item_content::after {
+        left: -7.5px;
+    }
+    
 }
