@@ -40,7 +40,7 @@ const contactInfo =  contactData.map((contact, index) => (
 
 const ContactInformation = () => {
     return (
-        <div className="aboutme_logo_container">
+        <div className="aboutme_logo_container" id='about'>
             <a className="aboutme_logo_cv_achor" href="https://drive.google.com/file/d/1HaOb84vAzgvN4Y-dYkd1-43UZFX0kT4a/view" target="_blank" rel="noopener noreferrer">
                 <button className="aboutme_logo_button">
                     <Icon>

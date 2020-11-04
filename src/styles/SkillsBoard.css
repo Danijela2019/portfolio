@@ -1,6 +1,6 @@
 .skills_main {
     background-color: whitesmoke;
-    height:90vh;
+    height:100vh;
 }
 .skills-card_container {
     display: flex;
@@ -18,3 +18,8 @@
     padding-top: 0.5rem;
 }
 
+@media only screen and (max-width: 767px) {
+    .skills_main {
+        height: 100%;
+    }
+}

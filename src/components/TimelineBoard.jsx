@@ -11,7 +11,7 @@ const timelineCards = timelineData.map((data,index) => (
 
 const TimelineBoard = () => {
     return (
-        <main className="timeline_main">
+        <main className="timeline_main" id="projects">
             <h1 className="timeline_header">Project's timeline</h1>
             <section className="timeline_container">
                 {timelineCards}
