@@ -13,7 +13,7 @@ const skillsCards =  skillData.map((data,index) => (
 
 const SkillsBoard = () => {
     return (
-        <main className="skills_main">
+        <main className="skills_main" id="skills">
             <h1 className="skills_header">Skill set</h1>
             <section className="skills-card_container">
                 {skillsCards}

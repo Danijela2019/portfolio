@@ -12,7 +12,7 @@ const skillsCards =  experienceData.map((data) => (
 
 const ExperienceBoard =()=> {
     return (
-        <main className="experience_main">
+        <main className="experience_main" id="experience">
             <h1 className="experience_main_header">Experience</h1>
             <section className="experience_section">  
                 {skillsCards}

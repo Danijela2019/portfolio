@@ -32,7 +32,7 @@ const Slider = () => {
         }, [sliderArr.length,images,x]);
       
     return (
-        <main className='slider_main'>
+        <main className='slider_main' id="home">
             { images }
         </main>
     )
