@@ -11,13 +11,7 @@
     max-width: 60rem;
     margin:.8rem;
     padding:0.5rem;
-    box-shadow: 2px 2px 22px rgba(230, 228, 228, 0.2);
-    transition: 0.3s ease-in-out;
-}
-
-.experience_card:hover {
-    box-shadow: 2px 12px 32px rgba(243, 239, 239, 0.5);
-    margin-left: 0.5rem;
+    box-shadow: 5px 5px 30px 7px rgba(240, 235, 235, 0.25), -5px -5px 30px 7px rgba(107, 105, 105, 0.22);
 }
 
 .experience_header {
@@ -37,6 +31,7 @@
 
 .experience_text {
    padding: .5rem;
+   text-align: justify;
 }
 
 @media only screen and (max-width: 767px) {
