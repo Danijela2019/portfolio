@@ -8,7 +8,7 @@ const TimelineItem = ({ data }) =>{
             <article className="timeline_item_content">
                 <time className="timeline_item_time">{data.date}</time>
                 <p className="timeline_item_title">{data.title}</p>
-                <img className="timeline_item_img" src ={require (`../images/${data.img}`)} alt="Project screen"></img>
+                <img className="timeline_item_img" src={data.img} alt="Project screen"></img>
                 <div className="timeline_item_button-wrapper">
                     <a href={data.link.url1} target="_blank" rel="noopener noreferrer">
                         <button className="timeline_item_button">  {data.link.button1}</button>

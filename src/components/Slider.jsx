@@ -14,12 +14,10 @@ const Slider = () => {
 
     const [x,setX]= useState(0);
 
-   
-
     const images = sliderArr.map((item,index) => {
         return (
             <section key={index} className='slider_slide' style={{transform:`translateX(${x}%)`}}>{item} </section>
-      )
+        )
     })
 
     useEffect(() => {
