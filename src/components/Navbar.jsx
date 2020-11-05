@@ -1,18 +1,40 @@
 import React from 'react'
-import portfolio from '../images/portfolio11.png'
-import '../styles/NavBar.css'
-import Icon from './Icon'
 import { FaBars } from "react-icons/fa";
 import { Link, animateScroll as scroll } from "react-scroll";
 
+import portfolio from '../images/portfolio11.png'
+import '../styles/NavBar.css'
+import Icon from './Icon'
+import linkData from '../data/navbar_data'
+
+
+
+const showSidebar = () => {
+    if (window.innerWidth < 400) {
+       document.querySelector('.navbar_links').classList.toggle('open');
+     }
+   }
+
+const links =  linkData.map((item, index) => (
+    <li className="navbar_item">
+        <Link  
+            key={index}
+            className="navbar_link"
+            onClick={showSidebar}
+            to={item.to}
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={100}
+        >
+           {item.title} 
+        </Link>
+    </li>
+))
+
 
 const NavBar = () => { 
-    const showSidebar = () => {
-     if (window.innerWidth < 400) {
-        document.querySelector('.navbar_links').classList.toggle('open');
-      }
-    }
-
+    
     const scrollToTop = () => {
         scroll.scrollToTop();
     };
@@ -29,63 +51,7 @@ const NavBar = () => {
             </div>
             <nav >
                 <ul className="navbar_links">
-                    <li className="navbar_item">
-                        <Link className="navbar_link"
-                            onClick={showSidebar}
-                            to="home"
-                            spy={true}
-                            smooth={true}
-                            offset={-50}
-                            duration={100} >Home
-                        </Link>
-                    </li>
-                    <li className="navbar_item">
-                        <Link className="navbar_link" 
-                        
-                        onClick={showSidebar}
-                            to="about"
-                            spy={true}
-                            smooth={true}
-                            offset={-50}
-                            duration={100}>
-                            About</Link>
-                    </li>
-                    <li className="navbar_item">
-                        <Link className="navbar_link"
-                            onClick={showSidebar}
-                            to="experience"
-                            spy={true}
-                            smooth={true}
-                            offset={-50}
-                            duration={100} 
-                        >
-                            Experience
-                        </Link>
-                    </li>
-                    <li className="navbar_item">
-                        <Link className="navbar_link"
-                            onClick={showSidebar}
-                            to="skills"
-                            spy={true}
-                            smooth={true}
-                            offset={-50}
-                            duration={100}
-                        >
-                            Skills
-                        </Link>
-                    </li>
-                    <li className="navbar_item">
-                        <Link className="navbar_link"
-                            onClick={showSidebar}
-                            to="projects"
-                            spy={true}
-                            smooth={true}
-                            offset={-50}
-                            duration={100} 
-                        >
-                            Projects
-                        </Link>
-                    </li>
+                    {links}
                 </ul>
             </nav>
         </div>

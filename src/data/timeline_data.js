@@ -1,8 +1,13 @@
+
+import { doggyapp , foodmap, gallery, github, mememaker, mymovieapp,
+   todo_javascript, todo_react, weatherapp } from '../images'
+
+
 const timelineData = [
   {
     title: 'The weather app',
     date: 'June 5th 2020',
-    img: 'projects/weatherapp.png',
+    img: weatherapp,
     text: `The weather app was built during my time at Salt. It
        was the first application that I build from scratch independently
        using JavaScript. I chose server side rendering out of 
@@ -19,7 +24,7 @@ const timelineData = [
   {
     title: 'Todo list JavaScript',
     date: 'June 25th 2020',
-    img: 'projects/todo_javascript.png',
+    img: todo_javascript,
     text: `The todo list is another project created during my time at SALT
        as a  weekend test assignment. The todo list
         was created using only vanilla JavaScript.`,
@@ -37,7 +42,7 @@ const timelineData = [
     text: `This app was a continuation of the todo list project as a weekend assignment,
      but this time it was built using the React framework.`,
     date: 'July 3th 2020',
-    img: 'projects/todo_react.png',
+    img: todo_react,
     link: {
       url1:
                 'https://todo-react1.netlify.app/',
@@ -50,7 +55,7 @@ const timelineData = [
   {
     title: 'My movie app',
     date: 'July 15 2020',
-    img: 'projects/mymovieapp.png',
+    img: mymovieapp,
     text: `The my movie app  was created as a one day project
        during a Hack day at SALT.It is build using vanilla JavaScript and 
         the Express framework for the backend.
@@ -67,7 +72,7 @@ const timelineData = [
   {
     title: 'Food-Map',
     date: 'July 30th 2020',
-    img: 'projects/foodmap.png',
+    img: foodmap,
     text: `The Food-Map project was created with my team at SALT as a graduation project.
      We worked on this project together as a mob and created a short video instead of presentation.
      We used React for the frontend, materialUI for styling and express for the backend.`, 
@@ -83,7 +88,7 @@ const timelineData = [
   {
     title: 'Gallery',
     date: 'August 20th 2020',
-    img: 'projects/gallery.png',
+    img: gallery,
     text: `This is my first independent project outside SALT,
     the main purpose was to get familiar with the grid layout.`,
     link: {
@@ -98,7 +103,7 @@ const timelineData = [
   {
     title: 'The meme maker',
     date: 'September 1st 2020',
-    img: 'projects/mememaker.png',
+    img: mememaker,
     text: `This is a mini project build using React class components 
     without react hooks. I build this project to get more familiar with
     class components in React.`,
@@ -114,7 +119,7 @@ const timelineData = [
   {
     title: 'Doggy-app',
     date: 'September 29th 2020',
-    img: 'projects/doggyapp.png',
+    img: doggyapp,
     text: `This is a real mobile app build for a startup company, we build it with my team at SALT 
     as part of our post graduation program. We set up the project from scratch using expo platform, 
     react native for the front and Apollo for the back end and GraphQL for fetching data.`,
@@ -130,7 +135,7 @@ const timelineData = [
   {
     title: 'Github-network',
     date: 'October 2 2020',
-    img: 'projects/github.png',
+    img: github,
     text: `This project was built as an idea how to use github's API.
      I took the more modern approach and used react hooks and React Bootstrap for styling.`,
     link: {
