@@ -16,9 +16,8 @@ const showSidebar = () => {
    }
 
 const links =  linkData.map((item, index) => (
-    <li className="navbar_item">
+    <li  key={index} className="navbar_item">
         <Link  
-            key={index}
             className="navbar_link"
             onClick={showSidebar}
             to={item.to}
