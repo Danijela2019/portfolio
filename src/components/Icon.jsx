@@ -1,9 +1,9 @@
 import React from 'react';
 import {IconContext} from "react-icons"
 
-const Icon = ({ children }) => {
+const Icon = ({ children, color }) => {
     return (
-          <IconContext.Provider value={{ style: {fontSize: '40px', color: "black"}}}>
+          <IconContext.Provider value={{ style: {fontSize: '40px', color:`${color}`}}}>
               <div>
                   { children }
               </div>

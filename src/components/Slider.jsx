@@ -1,8 +1,10 @@
 import React,{useState, useEffect} from 'react';
+import { BsChevronDown } from "react-icons/bs";
 
 import SliderItem from './SliderItem';
-import '../styles/Slider.css'
-import {image1, image2, image3} from  '../images'
+import '../styles/Slider.css';
+import {image1, image2, image3} from  '../images';
+import Icon from './Icon';
 
 
 const Slider = () => {
@@ -32,6 +34,11 @@ const Slider = () => {
     return (
         <main className='slider_main' id="home">
             { images }
+            <button className='slider_arrow' >
+                <Icon color="white">
+                    <BsChevronDown />
+                </Icon>
+            </button>
         </main>
     )
 }
