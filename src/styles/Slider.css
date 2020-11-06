@@ -24,10 +24,24 @@
     text-align: center;
     color: white;
 }
+.slider_arrow {
+    position: absolute;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    cursor: pointer;
+    left:48%;
+    top:90%;
+}
 
 @media only screen and (max-width: 767px) {
     .background {
         position: static;
+    }
+    .slider_arrow {
+        left: 45%;
     }
 }
 
