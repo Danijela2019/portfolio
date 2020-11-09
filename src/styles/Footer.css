@@ -1,5 +1,5 @@
 .footer {
-    background-color: rgb(104, 98, 98);
+    background-color: #bae8e8;
     color: black;
     padding : .2rem;
     margin:0;
@@ -11,7 +11,7 @@
         width: 100%;
         color: black;
         text-align: center;
-        background-color: rgb(182, 181, 187);
+        background-color: #bae8e8;
         padding: .2rem;
       }
       .copyright:before {

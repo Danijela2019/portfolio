@@ -1,5 +1,4 @@
 .timeline_main {
-    background-color: rgb(11, 3, 44);
     margin:0;
     padding-bottom: 1rem;
 }
@@ -19,7 +18,7 @@
 }
 
 .timeline_container::after {
-    background-color:  rgb(194, 55, 13);
+    background-color: #8dbdd8;
     content: '';
     position: absolute;
     left: calc(50% - 2px);
@@ -28,7 +27,7 @@
 }
 .timeline_item_content {
     border-radius: 5px;
-    background-color: whitesmoke;
+    background-color: #e3f6f5;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -41,7 +40,7 @@
 
 .timeline_item_content::after {
     content: ' ';
-    background-color:  rgb(194, 55, 13);
+    background-color: #8dbdd8;
     position: absolute;
     right: -7.5px;
     top: calc(50% - 7.5px);

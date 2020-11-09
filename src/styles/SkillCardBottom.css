@@ -1,5 +1,5 @@
 .skill-card_bottom_main {
-    background-color: rgb(11, 3, 44);
+    background-color: whitesmoke;
     min-width:92%;
     height:5%;
     margin:1rem;
@@ -7,7 +7,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
 }
 
 .skill-card_bottom_logos {
@@ -17,7 +16,7 @@
 }
 
 .skill-card_bottom_header {
-    color: white;
+    color: #272643; 
     margin-top: .5rem;
 
 }
