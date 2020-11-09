@@ -25,12 +25,12 @@
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     border-radius: 5px;
-    border-color:  rgb(226, 196, 26);
+    border-color:  #2c698d;
     color: black;
 }
 
 .timeline_item_button:hover {
-    background: rgb(226, 196, 26);
+    background: #2c698d;
     color: white;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .timeline_item_text{
-    background:rgb(215, 215, 218);
+    background: rgb(136, 201, 231);
     padding: .7rem;
     border-radius: 5px;
     text-align: justify;

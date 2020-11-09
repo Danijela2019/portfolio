@@ -1,9 +1,9 @@
 import React from 'react';
-import Slider from '../components/Slider'
+import HomeBoard from '../components/HomeBoard';
 
 const Home = () => {
     return (
-        <Slider />
+        <HomeBoard />
     )
 }
 

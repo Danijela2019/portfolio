@@ -1,5 +1,4 @@
 .experience_main {
-    background-color: rgb(11, 3, 44);
     height:90vh;
 }
 
@@ -11,7 +10,7 @@
 .experience_main_header {
     font-weight: bold;
     font-size: 2rem;
-    color:white;
+    color: whitesmoke;
     font-family:'Nunito', sans-serif;
     padding-top:.5rem;
 }

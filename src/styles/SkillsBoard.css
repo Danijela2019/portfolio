@@ -1,5 +1,4 @@
 .skills_main {
-    background-color: whitesmoke;
     height:100vh;
 }
 .skills-card_container {
@@ -13,7 +12,7 @@
 .skills_header {
     font-weight: bold;
     font-size: 2rem;
-    color:rgb(11, 3, 44);
+    color:whitesmoke;
     font-family:'Nunito', sans-serif;
     padding-top: 0.5rem;
 }
