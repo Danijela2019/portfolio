@@ -58,7 +58,7 @@
 .timeline_item:nth-child(odd)
 .timeline_item_content::after {
     right: auto;
-    left: -7.5px;
+    left: -8.5px;
 }
 
 .timeline_item:nth-child(odd)
@@ -76,10 +76,42 @@
 
 @media only screen and (max-width: 767px) {
     .timeline_container::after {
-        left: calc(11% - 2px);
+        left: calc(21% - 2px);
     }
     .timeline_item_content::after {
         left: -7.5px;
     }
-    
 }
+
+@media only screen and (max-width: 541px) {
+    .timeline_container::after {
+        left: calc(12% - 2px);
+    }
+    .timeline_item_content::after {
+        left: -7.5px;
+    }
+}
+@media only screen and (max-width: 412px) {
+    .timeline_container::after {
+        left: calc(11% - 2px);
+    }
+    .timeline_item_content::after {
+        left: -8.5px;
+    }
+}
+
+@media only screen and (max-width: 281px) {
+    .timeline_container::after {
+        left: calc(10% - 2px);
+    }
+    .timeline_item_content::after {
+        left: -6.5px;
+    }
+}
+
+
+
+
+
+
+

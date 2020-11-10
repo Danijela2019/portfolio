@@ -5,7 +5,7 @@ import '../styles/Typewriting.css'
  
 const TypeWritingEfect =() => {
     return (
-        <div className="text">
+        <div className="homeboard_text">
             <Typewriter  options={{
                 autoStart: true,
                 loop: true,
