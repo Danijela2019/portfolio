@@ -96,6 +96,12 @@ text-decoration: none;
     .aboutme_text_article {
         margin: .5rem;
     }
+}
 
+@media only screen and (max-width: 400px) {
+    .aboutme_img_photo {
+        width:16rem;
+        height:16rem;
+    }
 }
  

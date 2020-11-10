@@ -10,7 +10,7 @@ import linkData from '../data/navbar_data'
 
 
 const showSidebar = () => {
-    if (window.innerWidth < 400) {
+    if (window.innerWidth < 767) {
        document.querySelector('.navbar_links').classList.toggle('open');
      }
    }
