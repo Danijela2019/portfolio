@@ -26,7 +26,7 @@
     color: white; 
     background-color: #2c698d;
 }
-@media only screen and (max-width: 281px) {
+@media only screen and (max-width: 330px) {
     .skill-card_logo_img {
         height: 40px;
         width: auto;
