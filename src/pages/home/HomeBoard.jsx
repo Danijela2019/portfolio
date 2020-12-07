@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../styles/HomeBoard.css';
+import '../../styles/HomeBoard.css';
 import TypeWritingEfect from './Typewriting';
 
 const HomeBoard = () => {

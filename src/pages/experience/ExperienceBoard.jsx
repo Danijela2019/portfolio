@@ -1,8 +1,8 @@
 import React from 'react'
 import ExperienceCard from './ExperienceCard'
 
-import '../styles/ExperienceBoard.css'
-import experienceData from '../data/experience_data'
+import '../../styles/ExperienceBoard.css'
+import experienceData from '../../data/experience_data'
 
 
 const skillsCards =  experienceData.map((data) => (

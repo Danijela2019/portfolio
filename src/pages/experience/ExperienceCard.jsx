@@ -1,6 +1,6 @@
 import React from 'react'
 
-import '../styles/ExperienceCard.css'
+import '../../styles/ExperienceCard.css'
 
 
 const ExperienceCard =({data})=> {
