@@ -2,8 +2,8 @@ import React from 'react'
 import SkillCard from './SkillCard'
 import SkillCardBottom from './SkillCardBottom'
 
-import '../styles/SkillsBoard.css'
-import skillData from '../data/skills_data.js';
+import '../../styles/SkillsBoard.css'
+import skillData from '../../data/skills_data.js';
 
 
 

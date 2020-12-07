@@ -2,11 +2,11 @@ import React from 'react'
 import Emoji from 'a11y-react-emoji';
 import { FaFilePdf } from "react-icons/fa";
 
-import photo from '../images/profile_photo.png'
-import '../styles/AboutMe.css'
-import aboutMeData from '../data/about_me_data'
-import contactData from '../data/contact_data'
-import Icon from './Icon'
+import photo from '../../images/profile_photo.png'           
+import '../../styles/AboutMe.css'
+import aboutMeData from '../../data/about_me_data'
+import contactData from '../../data/contact_data'
+import Icon from '../../components/Icon'
 
 
 

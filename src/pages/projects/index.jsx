@@ -1,5 +1,5 @@
 import React from 'react'
-import TimelineBoard from '../components/TimelineBoard';
+import TimelineBoard from './TimelineBoard';
 
 
 const Projects = () => {

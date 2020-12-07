@@ -1,5 +1,5 @@
 import React from 'react'
-import SkillsBoard from '../components/SkillsBoard';
+import SkillsBoard from './SkillsBoard';
 
 const Skills = () => {
     return (

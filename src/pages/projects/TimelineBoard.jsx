@@ -1,8 +1,8 @@
 import React from 'react';
 import TimelineItem from './TimelineItem'
-import '../styles/TimelineBoard.css'
+import '../../styles/TimelineBoard.css'
 
-import timelineData from '../data/timeline_data.js';
+import timelineData from '../../data/timeline_data';
 
 const timelineCards = timelineData.map((data,index) => (
              <TimelineItem 

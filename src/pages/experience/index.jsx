@@ -1,5 +1,5 @@
 import React from 'react';
-import ExperienceBoard from '../components/ExperienceBoard'
+import ExperienceBoard from './ExperienceBoard'
 
 
 const Experience = () => {

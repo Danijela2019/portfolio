@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Home from './Home';
-import About from './About';
-import Experience from './Experience';
-import Skills from './Skills';
-import Projects from './Projects';
+import Home from './home';
+import About from './about';
+import Experience from './experience';
+import Skills from './skills';
+import Projects from './projects';
 import NavBar from '../components/Navbar'
 import Footer from '../components/Footer'
 

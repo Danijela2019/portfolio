@@ -1,5 +1,5 @@
 import React from 'react';
-import HomeBoard from '../components/HomeBoard';
+import HomeBoard from './HomeBoard';
 
 const Home = () => {
     return (
