@@ -7,7 +7,7 @@ A front end page made in React about me and my jurney of becoming a software dev
 | Homepage|
 
 ## How to use it 
-- **Clone the repo: git@github.com:Danijela2019/portfolio.git**
+- **Clone the repo: github.com/Danijela2019/portfolio.git**
 - **Position yourself (cd) in the my-portfolio folder**
 - **Install packages: npm install**
 - **Run this command in your terminal 'npm start'**
