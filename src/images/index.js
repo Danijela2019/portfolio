@@ -24,4 +24,6 @@ export const mymovieapp = require('./projects/mymovieapp.png');
 export const todo_javascript = require('./projects/todo_javascript.png');
 export const todo_react = require('./projects/todo_react.png');
 export const weatherapp = require('./projects/weatherapp.png');
+export const cellnow =  require('./projects/cellnow.png');
+export const theburgermaker=  require('./projects/theburgermaker.png');
 
