@@ -1,5 +1,5 @@
 
-import {git, postgres, mongoDB, reactBootstrap, sass, styledComponents, reactRouter}  from '../images'
+import {git, postgres, mongoDB, reactBootstrap, sass, styledComponents, reactRouter,emotions, firebase, redux}  from '../images'
 
 const imageData = [
     {
@@ -36,6 +36,21 @@ const imageData = [
         id:7,
         src: reactRouter,
         alt:"React router logo"
+    },
+    {
+        id:8,
+        src: emotions,
+        alt:"Emotions logo"
+    },
+    {
+        id:9,
+        src: firebase,
+        alt:"Firebase logo"
+    },
+    {
+        id:10,
+        src: redux,
+        alt:"Redux router logo"
     },
 ]
 
