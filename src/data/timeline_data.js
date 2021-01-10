@@ -136,6 +136,7 @@ const timelineData = [
       text: `The idea for the burger maker is to have a complete web site with different pages
        you can navigate to, user authentication and database.(Still in progress) `,
       link: {
+        url1: 'https://the-burger-maker-1691c.web.app/',
         button1: 'Demo',
         url2:'https://github.com/Danijela2019/The-burger-maker',
         button2: 'Code',
