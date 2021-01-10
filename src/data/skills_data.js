@@ -1,5 +1,5 @@
 import {
-  css, html, js, nodejs, react, reactNative, ts, java, pug,
+  css, html, js, nodejs, react, reactNative, ts, java, firebase, redux,react1
 } from '../images';
 
 const skillData = [
@@ -30,9 +30,13 @@ const skillData = [
     alternative2: 'Type Script logo',
   },
   {
-    logo1: pug,
-    link: 'https://github.com/Danijela2019/The-weather-app',
-    altertnative1: 'Pug JS logo',
+    logo1: react1,
+    logo2: firebase,
+    logo3: redux,
+    link: 'https://github.com/Danijela2019/The-burger-maker',
+    altertnative1: 'react logo',
+    altertnative2: 'firebase logo',
+    altertnative3: 'redux logo',
   },
   {
     logo1: java,

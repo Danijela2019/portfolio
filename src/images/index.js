@@ -3,6 +3,7 @@ export const html = require('./logos/html.png');
 export const js = require('./logos/js.png');
 export const nodejs = require('./logos/nodejs.png');
 export const react = require('./logos/react.png');
+export const react1 = require('./logos/react1.png');
 export const reactNative = require('./logos/react_native.png');
 export const ts = require('./logos/typescript.png');
 export const java = require('./logos/java.png');
