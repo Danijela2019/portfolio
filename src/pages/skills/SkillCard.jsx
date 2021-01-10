@@ -8,6 +8,7 @@ const SkillCard = ({data}) => {
         <section className="skill-card_logos">
             <img className="skill-card_logo_img" src={data.logo1} alt={data.alternative1}></img>
             <img className="skill-card_logo_img" src={data.logo2} alt={data.alternative2}></img>
+            <img className="skill-card_logo_img" src={data.logo3} alt={data.alternative3}></img>
         </section>
         <a className="skill-card_link" href={data.link}>
             <button className="skill-card_button">Some Example code</button>
