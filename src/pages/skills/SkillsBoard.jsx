@@ -1,15 +1,11 @@
-import React from 'react'
-import SkillCard from './SkillCard'
-import SkillCardBottom from './SkillCardBottom'
+import React from 'react';
+import SkillCard from './SkillCard';
+import SkillCardBottom from './SkillCardBottom';
 
-import '../../styles/SkillsBoard.css'
+import '../../styles/SkillsBoard.css';
 import skillData from '../../data/skills_data.js';
 
-
-
-const skillsCards =  skillData.map((data,index) => (
-             <SkillCard data={data} key={index} />
-         ))
+const skillsCards = skillData.map((data, index) => <SkillCard data={data} key={index} />);
 
 const SkillsBoard = () => {
     return (
@@ -20,7 +16,7 @@ const SkillsBoard = () => {
                 <SkillCardBottom />
             </section>
         </main>
-    )
-}
+    );
+};
 
 export default SkillsBoard;

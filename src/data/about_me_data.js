@@ -14,9 +14,9 @@ const aboutMeData = [
          a mentor one day and teach others what
         I know or maybe start writing blogs very soon.`
     },
-    { 
+    {
         text: `You want to know more about me, or my projects please fell free to contact me:`
     }
-]
+];
 
-export  default aboutMeData;
+export default aboutMeData;

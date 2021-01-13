@@ -2,9 +2,7 @@ import React from 'react';
 import HomeBoard from './HomeBoard';
 
 const Home = () => {
-    return (
-        <HomeBoard />
-    )
-}
+    return <HomeBoard />;
+};
 
 export default Home;

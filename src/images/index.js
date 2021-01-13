@@ -16,8 +16,8 @@ export const sass = require('./logos/sass.png');
 export const styledComponents = require('./logos/styled_components.png');
 export const reactRouter = require('./logos/react_router.png');
 export const redux = require('./logos/redux.png');
-export const emotions =  require('./logos/emotions.jpeg');
-export const firebase = require('./logos/firebase.png')
+export const emotions = require('./logos/emotions.jpeg');
+export const firebase = require('./logos/firebase.png');
 
 export const doggyapp = require('./projects/doggyapp.png');
 export const foodmap = require('./projects/foodmap.png');
@@ -28,6 +28,5 @@ export const mymovieapp = require('./projects/mymovieapp.png');
 export const todo_javascript = require('./projects/todo_javascript.png');
 export const todo_react = require('./projects/todo_react.png');
 export const weatherapp = require('./projects/weatherapp.png');
-export const cellnow =  require('./projects/cellnow.png');
-export const theburgermaker=  require('./projects/theburgermaker.png');
-
+export const cellnow = require('./projects/cellnow.png');
+export const theburgermaker = require('./projects/theburgermaker.png');

@@ -1,9 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-import '../../styles/ExperienceCard.css'
+import '../../styles/ExperienceCard.css';
 
-
-const ExperienceCard =({data})=> {
+const ExperienceCard = ({ data }) => {
     return (
         <article className="experience_card">
             <div className="experience_card_top_container">
@@ -14,7 +13,7 @@ const ExperienceCard =({data})=> {
             <h2 className="experience_subtitle">{data.subtitle}</h2>
             <p className="experience_text">{data.description}</p>
         </article>
-    )
-}
+    );
+};
 
 export default ExperienceCard;

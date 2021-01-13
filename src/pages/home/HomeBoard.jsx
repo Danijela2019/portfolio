@@ -6,11 +6,9 @@ import TypeWritingEfect from './Typewriting';
 const HomeBoard = () => {
     return (
         <main className="homeboard_main" id="home">
-            <TypeWritingEfect/>
+            <TypeWritingEfect />
         </main>
-    )
-
-}
-
+    );
+};
 
 export default HomeBoard;
