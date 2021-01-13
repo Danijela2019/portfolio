@@ -1,24 +1,24 @@
 const linkData = [
-    {   
-       to:"home",
-        title: "Home"
-    },
-    {   
-        to:"about",
-        title: "About"
+    {
+        to: 'home',
+        title: 'Home'
     },
     {
-        to:"experience",
-        title: "Experience"
+        to: 'about',
+        title: 'About'
     },
-    {   
-        to:"skills",
-        title: "Skills"
+    {
+        to: 'experience',
+        title: 'Experience'
     },
-    {   
-        to:"projects",
-        title: "Projects"
+    {
+        to: 'skills',
+        title: 'Skills'
     },
-]
- 
+    {
+        to: 'projects',
+        title: 'Projects'
+    }
+];
+
 export default linkData;

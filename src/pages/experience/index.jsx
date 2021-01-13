@@ -1,11 +1,8 @@
 import React from 'react';
-import ExperienceBoard from './ExperienceBoard'
-
+import ExperienceBoard from './ExperienceBoard';
 
 const Experience = () => {
-    return (
-       <ExperienceBoard />
-    )
-}
+    return <ExperienceBoard />;
+};
 
 export default Experience;
