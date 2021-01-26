@@ -14,5 +14,5 @@ A front end page made in React about me and my jurney of becoming a software dev
 - **Install packages: npm install**
 - **Run this command in your terminal 'npm start'**
 - **View the application in the browser(http://localhost:3000)**
-- **Preview of the app is available on Netlify [here](https://myporfolio2020.netlify.app/)**
+- **Preview of the app is available on Netlify [here](https://danijelamilenkovic.netlify.app/)**
 
