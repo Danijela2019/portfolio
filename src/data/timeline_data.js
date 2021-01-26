@@ -11,6 +11,8 @@ import {
     cellnow,
     theburgermaker
 } from '../images';
+import postman from '../videos/postman.mp4';
+
 
 const timelineData = [
     {
@@ -163,6 +165,21 @@ const timelineData = [
             button1: 'Demo',
             url2: 'https://github.com/Danijela2019/Cell-now-shopping',
             button2: 'Code'
+        }
+    },
+    {
+        title: 'cat-facts-api',
+        date: 'January 20 2021',
+        img: postman,
+        text: `This is a simple API where the user can perform all CRUD operations.
+        There are 2 brances: the master branch, where the data is stored in JSON file and 
+        mongoDB branch where the data is stored in Mongo DB.`,
+        video: true,
+        link: {
+            url1: 'https://github.com/Danijela2019/cat-fact-api',
+            button1: 'JSON code',
+            url2: 'https://github.com/Danijela2019/cat-fact-api/tree/mongoDB',
+            button2: 'mongoBD code',
         }
     }
 ];
