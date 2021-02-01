@@ -9,7 +9,8 @@ import {
     todo_react,
     weatherapp,
     cellnow,
-    theburgermaker
+    theburgermaker,
+    authentication
 } from '../images';
 import postman from '../videos/postman.mp4';
 
@@ -145,8 +146,9 @@ const timelineData = [
         title: 'The burger-maker',
         date: 'November 1 2020',
         img: theburgermaker,
-        text: `The idea for the burger maker is to have a complete web site with different pages
-       you can navigate to, user authentication and database. `,
+        text: `The burger maker is a complete web site with different pages
+       you can navigate to, user authentication and database base on 
+       a tutorial I followed customized for my needs. `,
         link: {
             url1: 'https://the-burger-maker-1691c.web.app/',
             button1: 'Demo',
@@ -180,6 +182,19 @@ const timelineData = [
             button1: 'JSON code',
             url2: 'https://github.com/Danijela2019/cat-fact-api/tree/mongoDB',
             button2: 'mongoBD code',
+        }
+    },
+    {
+        title: 'User-authentication',
+        date: 'January 28th 2021',
+        img: authentication,
+        text: `The project was created as an exercise(learnnig curve) about how to authenticate a
+         user using JWT and MongoDB Atlas.`,
+        link: {
+            url1: 'https://authentication-exercise.herokuapp.com/',
+            button1: 'Demo',
+            url2: 'https://github.com/Danijela2019/user-authentication',
+            button2: 'Code'
         }
     }
 ];
