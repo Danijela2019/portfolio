@@ -3,13 +3,13 @@ import {
     html,
     js,
     nodejs,
-    react,
     reactNative,
     ts,
     java,
     firebase,
     redux,
-    react1
+    react1,
+    styledComponents
 } from '../images';
 
 const skillData = [
@@ -28,9 +28,13 @@ const skillData = [
         alternative2: 'NodeJS logo'
     },
     {
-        logo1: react,
-        link: 'https://github.com/Danijela2019/to-do-list-react',
-        altertnative1: 'React logo'
+        logo1: react1,
+        logo2: ts,
+        logo3: styledComponents,
+        link: 'https://github.com/Danijela2019/react-movie-app',
+        altertnative1: 'react logo',
+        altertnative2: 'firebase logo',
+        altertnative3: 'redux logo'
     },
     {
         logo1: reactNative,

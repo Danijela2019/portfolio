@@ -10,7 +10,8 @@ import {
     weatherapp,
     cellnow,
     theburgermaker,
-    authentication
+    authentication,
+    reactmovieapp
 } from '../images';
 import postman from '../videos/postman.mp4';
 
@@ -194,6 +195,20 @@ const timelineData = [
             url1: 'https://authentication-exercise.herokuapp.com/',
             button1: 'Demo',
             url2: 'https://github.com/Danijela2019/user-authentication',
+            button2: 'Code'
+        }
+    },
+    {
+        title: 'React-movie-app',
+        date: 'February 28th 2021',
+        img: reactmovieapp,
+        text: `A total remake of my SALT hack day project movie-app. 
+        The only thing that I reused form the old project is the TMDB API. The front end is almost completed. 
+        There will be a separate backend repo for storing data.`,
+        link: {
+            url1: 'https://react-movie-app2021.netlify.app/',
+            button1: 'Demo',
+            url2: 'https://github.com/Danijela2019/react-movie-app',
             button2: 'Code'
         }
     }
