@@ -15,7 +15,6 @@ import {
 } from '../images';
 import postman from '../videos/postman.mp4';
 
-
 const timelineData = [
     {
         title: 'The weather app',
@@ -182,7 +181,7 @@ const timelineData = [
             url1: 'https://github.com/Danijela2019/cat-fact-api',
             button1: 'JSON code',
             url2: 'https://github.com/Danijela2019/cat-fact-api/tree/mongoDB',
-            button2: 'mongoBD code',
+            button2: 'mongoBD code'
         }
     },
     {

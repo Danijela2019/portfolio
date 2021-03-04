@@ -1,12 +1,13 @@
 .skill-card_bottom_main {
     background-color: whitesmoke;
-    min-width:92%;
-    height:5%;
-    margin:1rem;
+    min-width: 92%;
+    height: 5%;
+    margin: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
 
 .skill-card_bottom_logos {
@@ -16,9 +17,8 @@
 }
 
 .skill-card_bottom_header {
-    color: #272643; 
-    margin-top: .5rem;
-
+    color: #272643;
+    margin-top: 0.5rem;
 }
 .skills_section_card {
     background-color: whitesmoke;
