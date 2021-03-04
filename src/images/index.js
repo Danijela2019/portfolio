@@ -32,4 +32,3 @@ export const cellnow = require('./projects/cellnow.png');
 export const theburgermaker = require('./projects/theburgermaker.png');
 export const authentication = require('./projects/authentication.png');
 export const reactmovieapp = require('./projects/react_movie_app.png');
-

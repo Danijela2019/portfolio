@@ -1,11 +1,4 @@
-import {
-    git,
-    mongoDB,
-    reactBootstrap,
-    styledComponents,
-    reactRouter,
-    emotions
-} from '../images';
+import { git, mongoDB, reactBootstrap, styledComponents, reactRouter, emotions } from '../images';
 
 const imageData = [
     {
@@ -37,7 +30,7 @@ const imageData = [
         id: 8,
         src: emotions,
         alt: 'Emotions logo'
-    },
+    }
 ];
 
 export default imageData;
