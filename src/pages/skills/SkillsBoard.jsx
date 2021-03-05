@@ -2,7 +2,7 @@ import React from 'react';
 import SkillCard from './SkillCard';
 import SkillCardBottom from './SkillCardBottom';
 
-import '../../styles/SkillsBoard.css';
+import '../../styles/skills/SkillsBoard.css';
 import skillData from '../../data/skills_data.js';
 
 const skillsCards = skillData.map((data, index) => <SkillCard data={data} key={index} />);

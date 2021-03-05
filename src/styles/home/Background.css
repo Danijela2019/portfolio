@@ -1,4 +1,4 @@
-.wrapper {
+.background_wrapper {
     background: #272643;
     position: relative;
     height: 100vh;
@@ -9,7 +9,7 @@
     justify-content: center;
     z-index: 1;
 }
-.header {
+.background_header {
     color: #2e2d4ea8;
     font-size: 40vw;
     z-index: 2;
@@ -22,10 +22,10 @@
     flex-direction: column;
     right: 10px;
 }
-.contact_anchor {
+.background_contact_anchor {
     margin-top: 1rem;
 }
-.contact_anchor:hover {
+.background_contact_anchor:hover {
     animation: shake 0.5s;
 }
 
@@ -59,7 +59,7 @@
         bottom: 20px;
         right: auto;
     }
-    .contact_anchor {
+    .background_contact_anchor {
         margin: 1rem;
     }
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../../styles/SkillCardBottom.css';
+import '../../styles/skills/SkillCardBottom.css';
 import imageData from '../../data/logo_img_data';
 
 const Logo = ({ images }) => {
