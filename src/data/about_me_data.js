@@ -15,7 +15,7 @@ const aboutMeData = [
         I know or maybe start writing blogs very soon.`
     },
     {
-        text: `You want to know more about me, or my projects please fell free to contact me:`
+        text: `You want to know more about me, feel free to look at my cv:`
     }
 ];
 

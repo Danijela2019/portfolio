@@ -5,7 +5,6 @@ import { FaFilePdf } from 'react-icons/fa';
 import photo from '../../images/profile_photo.png';
 import '../../styles/AboutMe.css';
 import aboutMeData from '../../data/about_me_data';
-import contactData from '../../data/contact_data';
 import Icon from '../../components/Icon';
 
 const EmojiHand = () => {
@@ -20,16 +19,6 @@ const textData = aboutMeData.map((text, index) => (
     <Paragraph className="aboutme_text_content" text={text} key={index} />
 ));
 
-const Contact = ({ contact }) => {
-    return (
-        <a href={contact.link} target="_blank" rel="noopener noreferrer">
-            <img className="aboutme_logo" src={contact.source} alt={contact.alternative}></img>
-        </a>
-    );
-};
-
-const contactInfo = contactData.map((contact, index) => <Contact contact={contact} key={index} />);
-
 const ContactInformation = () => {
     return (
         <div className="aboutme_logo_container" id="about">
@@ -42,10 +31,9 @@ const ContactInformation = () => {
                     <Icon color="black">
                         <FaFilePdf />
                     </Icon>
-                    my CV
+                    Go to CV
                 </button>
             </a>
-            {contactInfo}
         </div>
     );
 };
@@ -65,13 +53,13 @@ const AboutMeText = () => {
 
 const AboutMe = () => {
     return (
-        <main className="aboutme_main" id="about">
+        <section className="aboutme_main" id="about">
             <h1 className="aboutme_header">About me</h1>
             <section className="aboutme_section">
                 <img className="aboutme_img_photo" src={photo} alt=""></img>
                 <AboutMeText />
             </section>
-        </main>
+        </section>
     );
 };
 
