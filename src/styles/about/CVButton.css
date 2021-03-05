@@ -1,0 +1,25 @@
+.aboutme_logo_button {
+    cursor: pointer;
+    border-radius: 5px;
+    width: 30rem;
+    max-width: 100%;
+    border: none;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    background-color: #e3f6f5;
+}
+
+.aboutme_logo_cv_achor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .aboutme_logo_button {
+        width: 20rem;
+    }
+}

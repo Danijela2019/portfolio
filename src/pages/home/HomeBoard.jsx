@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../../styles/HomeBoard.css';
+import '../../styles/home/HomeBoard.css';
 import Background from './Background';
 
 const HomeBoard = () => {

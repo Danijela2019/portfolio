@@ -1,10 +1,10 @@
 import React from 'react';
 
-import '../../styles/ExperienceCard.css';
+import '../../styles/experience/ExperienceCard.css';
 
 const ExperienceCard = ({ data }) => {
     return (
-        <article className="experience_card">
+        <div className="experience_card">
             <div className="experience_card_top_container">
                 <img src={data.logo} alt={data.alternative}></img>
                 <h1 className="experience_header">{data.title}</h1>
@@ -12,7 +12,7 @@ const ExperienceCard = ({ data }) => {
             </div>
             <h2 className="experience_subtitle">{data.subtitle}</h2>
             <p className="experience_text">{data.description}</p>
-        </article>
+        </div>
     );
 };
 

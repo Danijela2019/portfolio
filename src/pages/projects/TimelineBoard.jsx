@@ -1,6 +1,6 @@
 import React from 'react';
 import TimelineItem from './TimelineItem';
-import '../../styles/TimelineBoard.css';
+import '../../styles/projects/TimelineBoard.css';
 
 import timelineData from '../../data/timeline_data';
 
@@ -10,7 +10,7 @@ const TimelineBoard = () => {
     return (
         <section className="timeline_main" id="projects">
             <h1 className="timeline_header">Project's timeline</h1>
-            <section className="timeline_container">{timelineCards}</section>
+            <div className="timeline_container">{timelineCards}</div>
         </section>
     );
 };
