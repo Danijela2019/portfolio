@@ -1,22 +1,18 @@
-import gmail from '../images/logos/gmail.png';
-import linkedin from '../images/logos/linkedin.png';
-import github from '../images/logos/github.png';
+import React from 'react';
+import { AiFillLinkedin, AiFillGithub, AiFillMail} from 'react-icons/ai';
 
 const contactData = [
     {
         link: 'mailto:danijela.milenkovic@appliedtechnology.se',
-        source: gmail,
-        alternative: 'Gmail logo'
+        source: <AiFillMail/>
     },
     {
         link: 'https://www.linkedin.com/in/danijela-milenkovic-926b0a57/',
-        source: linkedin,
-        alternative: 'Linkedin logo'
+        source: <AiFillLinkedin/>
     },
     {
         link: 'https://github.com/Danijela2019',
-        source: github,
-        alternative: 'Github logo'
+        source: <AiFillGithub/>
     }
 ];
 

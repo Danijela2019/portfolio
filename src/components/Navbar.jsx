@@ -43,7 +43,7 @@ const NavBar = () => {
                     alt="Portfolio logo"
                 />
                 <div className="navbar_toggle" onClick={showSidebar}>
-                    <Icon>
+                    <Icon color="#e3f6f5">
                         <FaBars />
                     </Icon>
                 </div>

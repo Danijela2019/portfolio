@@ -12,7 +12,7 @@
     font-size: 2rem;
     color: whitesmoke;
     font-family: 'Nunito', sans-serif;
-    padding-top: 0.5rem;
+    padding: 1rem 0 0.5rem;
 }
 .experience_section {
     display: flex;
@@ -27,5 +27,8 @@
 @media only screen and (max-width: 767px) {
     .experience_main {
         height: auto;
+    }
+    .experience_main_header {
+        padding: 0.5rem 0 0.5rem;
     }
 }
