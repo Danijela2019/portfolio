@@ -15,29 +15,29 @@
 .timeline_item_button-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 .timeline_item_button {
     cursor: pointer;
     height: 2.2rem;
-    width:5rem;
-    margin:1rem;
+    width: 5rem;
+    margin: 1rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     border-radius: 5px;
-    border-color:  #2c698d;
-    color: black;
+    border-color: var(--blue);
+    color: var(--black);
+    outline: none;
 }
 
 .timeline_item_button:hover {
-    background: #2c698d;
-    color: white;
+    background: var(--blue);
+    color: var(--white);
 }
 
-
 .timeline_item_img {
-    width:100%;
-    height:auto;
+    width: 100%;
+    height: auto;
 }
 
 .timeline_item_title {
@@ -53,9 +53,9 @@
     padding-right: 0;
 }
 
-.timeline_item_text{
-    background: rgb(136, 201, 231);
-    padding: .7rem;
+.timeline_item_text {
+    background: var(--lightBlue);
+    padding: 0.7rem;
     border-radius: 5px;
     text-align: justify;
 }
@@ -69,28 +69,48 @@
 }
 
 @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
-      
+
 @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
-      
+
 @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
-      
+
 @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
-      
+
 @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -112,5 +132,11 @@
 
     .timeline-item-content time {
         margin-top: 20px;
+    }
+    .timeline_item_button {
+        border: none;
+        background-color: var(--blue);
+        color: var(--white);
+        font-size: 15px;
     }
 }

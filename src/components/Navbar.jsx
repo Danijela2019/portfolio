@@ -4,6 +4,7 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 
 import portfolio from '../images/portfolio11.png';
 import '../styles/NavBar.css';
+import '../styles/common.css';
 import Icon from './Icon';
 import linkData from '../data/navbar_data';
 
@@ -43,7 +44,7 @@ const NavBar = () => {
                     alt="Portfolio logo"
                 />
                 <div className="navbar_toggle" onClick={showSidebar}>
-                    <Icon color="#e3f6f5">
+                    <Icon color="var(--white)">
                         <FaBars />
                     </Icon>
                 </div>

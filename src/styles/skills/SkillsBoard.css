@@ -1,5 +1,5 @@
 .skills_main {
-    height:100vh;
+    height: 100vh;
 }
 .skills-card_container {
     display: flex;
@@ -12,13 +12,16 @@
 .skills_header {
     font-weight: bold;
     font-size: 2rem;
-    color:whitesmoke;
-    font-family:'Nunito', sans-serif;
+    color: var(--white);
+    font-family: 'Nunito', sans-serif;
     padding-top: 0.5rem;
 }
 
 @media only screen and (max-width: 767px) {
     .skills_main {
         height: 100%;
+    }
+    .skills_header {
+        padding: 2.5rem 0 0.5rem;
     }
 }

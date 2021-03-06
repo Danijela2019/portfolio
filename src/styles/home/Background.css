@@ -1,5 +1,5 @@
 .background_wrapper {
-    background: #272643;
+    background: var(--darkblue);
     position: relative;
     height: 100vh;
     width: 100%;
@@ -56,10 +56,13 @@
 @media only screen and (max-width: 767px) {
     .background_contact {
         flex-direction: row;
-        bottom: 20px;
+        bottom: 30px;
         right: auto;
     }
     .background_contact_anchor {
         margin: 1rem;
+    }
+    .background_header {
+        transform: scale(1, 3.5);
     }
 }

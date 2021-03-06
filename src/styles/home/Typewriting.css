@@ -1,8 +1,14 @@
 .homeboard_text {
     font-size: 2rem;
-    color: whitesmoke;
+    color: var(--white);
     z-index: 3;
     position: absolute;
     left: auto;
     top: 50vh;
+}
+
+@media only screen and (max-width: 767px) {
+    .homeboard_text {
+        top: 40vh;
+    }
 }

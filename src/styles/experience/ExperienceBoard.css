@@ -10,7 +10,7 @@
 .experience_main_header {
     font-weight: bold;
     font-size: 2rem;
-    color: whitesmoke;
+    color: var(--white);
     font-family: 'Nunito', sans-serif;
     padding: 1rem 0 0.5rem;
 }
@@ -29,6 +29,6 @@
         height: auto;
     }
     .experience_main_header {
-        padding: 0.5rem 0 0.5rem;
+        padding: 2.5rem 0 0.5rem;
     }
 }

@@ -9,7 +9,7 @@
 .aboutme_header {
     font-weight: bold;
     font-size: 2rem;
-    color: whitesmoke;
+    color: var(--white);
     padding-bottom: 1rem;
 }
 .aboutme_img_photo {
@@ -38,5 +38,8 @@
     .aboutme_img_photo {
         width: 16rem;
         height: 16rem;
+    }
+    .aboutme_header {
+        padding: 2.5rem 0 0.5rem;
     }
 }
