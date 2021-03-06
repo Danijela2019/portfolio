@@ -1,5 +1,5 @@
 .aboutme_paragraph {
-    color: whitesmoke;
+    color: var(--white);
 }
 
 .aboutme_paragraph {
@@ -15,7 +15,7 @@
     margin-top: 1rem;
 }
 .aboutme_text_title {
-    color: whitesmoke;
+    color: var(--white);
     font-size: 1.5rem;
 }
 

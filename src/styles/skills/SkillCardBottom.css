@@ -1,5 +1,5 @@
 .skill-card_bottom_main {
-    background-color: whitesmoke;
+    background-color: var(--white);
     min-width: 92%;
     height: 5%;
     margin: 1rem;
@@ -17,11 +17,12 @@
 }
 
 .skill-card_bottom_header {
-    color: #272643;
+    color: var(--black);
     margin-top: 0.5rem;
+    font-size: 20px;
 }
 .skills_section_card {
-    background-color: whitesmoke;
+    background-color: var(--white);
     width: 20rem;
     height: 28rem;
 }

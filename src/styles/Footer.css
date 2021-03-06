@@ -24,7 +24,7 @@
 }
 
 .custom-shape-divider-bottom-1614953875 .shape-fill {
-    fill: rgb(136, 201, 231);
+    fill: var(--lightBlue);
     z-index: 1;
 }
 
@@ -45,6 +45,6 @@
     }
     .footer_bottom {
         bottom: 25px;
-        color: whitesmoke;
+        color: var(--white);
     }
 }

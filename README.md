@@ -2,9 +2,9 @@
 
 A front end page made in React about me and my jurney of becoming a software developer.
 
-| ![Homepage](readme_image1.png) |
-| :----------------------------: |
-|            Homepage            |
+| ![Homepage](readme_image.png) |
+| :---------------------------: |
+|           Homepage            |
 
 ## How to use it
 
