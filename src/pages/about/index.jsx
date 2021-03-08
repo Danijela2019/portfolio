@@ -1,6 +1,6 @@
 import React from 'react';
 
-import AboutMeText from './AboutMeText'
+import AboutMeText from './AboutMeText';
 import photo from '../../images/profile_photo.png';
 import '../../styles/about/Aboutme.css';
 
@@ -17,5 +17,3 @@ const About = () => {
 };
 
 export default About;
-
-

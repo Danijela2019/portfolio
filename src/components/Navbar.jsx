@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
@@ -8,31 +8,31 @@ import '../styles/common.css';
 import Icon from './Icon';
 import linkData from '../data/navbar_data';
 
-const showSidebar = () => {
-    if (window.innerWidth < 767) {
-        document.querySelector('.navbar_links').classList.toggle('open');
-    }
-};
-
-const links = linkData.map((item, index) => (
-    <li key={index} className="navbar_item">
-        <Link
-            className="navbar_link"
-            onClick={showSidebar}
-            to={item.to}
-            spy={true}
-            smooth={true}
-            offset={-50}
-            duration={100}>
-            {item.title}
-        </Link>
-    </li>
-));
-
 const NavBar = () => {
+    const navBarLinks = useRef();
     const scrollToTop = () => {
         scroll.scrollToTop();
     };
+    const showSidebar = () => {
+        if (window.innerWidth < 767) {
+            navBarLinks.current.classList.toggle('open');
+        }
+    };
+
+    const links = linkData.map((item, index) => (
+        <li key={index} className="navbar_item">
+            <Link
+                className="navbar_link"
+                onClick={showSidebar}
+                to={item.to}
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={100}>
+                {item.title}
+            </Link>
+        </li>
+    ));
 
     return (
         <div className="navbar_container">
@@ -50,7 +50,9 @@ const NavBar = () => {
                 </div>
             </div>
             <nav>
-                <ul className="navbar_links">{links}</ul>
+                <ul ref={navBarLinks} className="navbar_links">
+                    {links}
+                </ul>
             </nav>
         </div>
     );

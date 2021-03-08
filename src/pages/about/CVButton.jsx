@@ -4,7 +4,6 @@ import { FaFilePdf } from 'react-icons/fa';
 import '../../styles/about/CVButton.css';
 import Icon from '../../components/Icon';
 
-
 const CVButton = () => {
     return (
         <button className="aboutme_logo_button">
@@ -16,8 +15,8 @@ const CVButton = () => {
                 <Icon color="black">
                     <FaFilePdf />
                 </Icon>
-                 Go to CV
-             </a>
+                Go to CV
+            </a>
         </button>
     );
 };
