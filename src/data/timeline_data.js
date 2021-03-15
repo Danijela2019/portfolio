@@ -11,7 +11,8 @@ import {
     cellnow,
     theburgermaker,
     authentication,
-    reactmovieapp
+    reactmovieapp,
+     todo_angular
 } from '../images';
 import postman from '../videos/postman.mp4';
 
@@ -170,7 +171,7 @@ const timelineData = [
         }
     },
     {
-        title: 'cat-facts-api',
+        title: 'Cat-facts-api',
         date: 'January 20 2021',
         img: postman,
         text: `This is a simple API where the user can perform all CRUD operations.
@@ -208,6 +209,20 @@ const timelineData = [
             url1: 'https://react-movie-app2021.netlify.app/',
             button1: 'Demo',
             url2: 'https://github.com/Danijela2019/react-movie-app',
+            button2: 'Code'
+        }
+    },
+    {
+        title: 'Angular-todo-list',
+        date: 'March 10th 2021',
+        img: todo_angular,
+        text: `This project was created as an exercise to get familiar with angular and
+             some of its features
+             like fetching data asynchronosly and navigation`,
+        link: {
+            url1: 'https://angular-todo2021.netlify.app/',
+            button1: 'Demo',
+            url2: 'https://github.com/Danijela2019/angular-todo-list',
             button2: 'Code'
         }
     }
