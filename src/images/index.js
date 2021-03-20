@@ -18,6 +18,7 @@ export const reactRouter = require('./logos/react_router.png');
 export const redux = require('./logos/redux.png');
 export const emotions = require('./logos/emotions.jpeg');
 export const firebase = require('./logos/firebase.png');
+export const angular = require('./logos/angular.png');
 
 export const doggyapp = require('./projects/doggyapp.png');
 export const foodmap = require('./projects/foodmap.png');
@@ -33,3 +34,4 @@ export const theburgermaker = require('./projects/theburgermaker.png');
 export const authentication = require('./projects/authentication.png');
 export const reactmovieapp = require('./projects/react_movie_app.png');
 export const todo_angular = require('./projects/todo_angular.png');
+export const budget_angular = require('./projects/budget_angular.png');

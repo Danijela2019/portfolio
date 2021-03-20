@@ -1,4 +1,12 @@
-import { git, mongoDB, reactBootstrap, styledComponents, reactRouter, emotions } from '../images';
+import {
+    git,
+    mongoDB,
+    reactBootstrap,
+    styledComponents,
+    reactRouter,
+    emotions,
+    angular
+} from '../images';
 
 const imageData = [
     {
@@ -28,6 +36,11 @@ const imageData = [
     },
     {
         id: 8,
+        src: angular,
+        alt: 'Angualar logo'
+    },
+    {
+        id: 9,
         src: emotions,
         alt: 'Emotions logo'
     }
