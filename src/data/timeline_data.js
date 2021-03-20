@@ -12,7 +12,8 @@ import {
     theburgermaker,
     authentication,
     reactmovieapp,
-     todo_angular
+    todo_angular,
+    budget_angular
 } from '../images';
 import postman from '../videos/postman.mp4';
 
@@ -223,6 +224,19 @@ const timelineData = [
             url1: 'https://angular-todo2021.netlify.app/',
             button1: 'Demo',
             url2: 'https://github.com/Danijela2019/angular-todo-list',
+            button2: 'Code'
+        }
+    },
+    {
+        title: 'Budget-planner-angular',
+        date: 'March 18th 2021',
+        img: budget_angular,
+        text: `A budget calculator application where the user is able 
+        to follow personal expenses build using Angular with TypeScript.`,
+        link: {
+            url1: 'https://danijela2019.github.io/budget-planner-angular/',
+            button1: 'Demo',
+            url2: 'https://github.com/Danijela2019/budget-planner-angular',
             button2: 'Code'
         }
     }
