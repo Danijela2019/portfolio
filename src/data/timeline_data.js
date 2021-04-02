@@ -13,7 +13,8 @@ import {
     authentication,
     reactmovieapp,
     todo_angular,
-    budget_angular
+    budget_angular,
+    pizza_recipes
 } from '../images';
 import postman from '../videos/postman.mp4';
 
@@ -239,7 +240,21 @@ const timelineData = [
             url2: 'https://github.com/Danijela2019/budget-planner-angular',
             button2: 'Code'
         }
+    },
+    {
+        title: 'Pizza-recipes',
+        date: 'March 28th 2021',
+        img: pizza_recipes,
+        text: `A pizza recipes app with possibility to add and remove ingredients
+        from and to a shopping list. The app was created using Angular and Firebase for storing recipes.`,
+        link: {
+            url1: 'https://pizza-recipes-fb56e.web.app/',
+            button1: 'Demo',
+            url2: 'https://github.com/Danijela2019/pizza-recipes',
+            button2: 'Code'
+        }
     }
 ];
+
 
 export default timelineData;
