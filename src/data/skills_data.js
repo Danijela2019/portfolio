@@ -9,16 +9,19 @@ import {
     firebase,
     redux,
     react1,
-    styledComponents
+    styledComponents,
+    angular
 } from '../images';
 
 const skillData = [
     {
-        logo1: css,
-        logo2: html,
-        link: 'https://github.com/Danijela2019/Gallery',
-        altertnative1: 'CSS logo',
-        alternative2: 'HTML logo'
+        logo1: angular,
+        logo2: ts,
+        logo3:firebase,
+        link: 'https://github.com/Danijela2019/angular-todo-list',
+        altertnative1: 'Angular logo',
+        alternative2: 'TypeScript logo',
+        alternative3: 'Firebase logo'
     },
     {
         logo1: js,
