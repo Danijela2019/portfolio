@@ -14,7 +14,8 @@ import {
     reactmovieapp,
     todo_angular,
     budget_angular,
-    pizza_recipes
+    pizza_recipes,
+    book_store
 } from '../images';
 import postman from '../videos/postman.mp4';
 
@@ -251,6 +252,20 @@ const timelineData = [
             url1: 'https://pizza-recipes-fb56e.web.app/',
             button1: 'Demo',
             url2: 'https://github.com/Danijela2019/pizza-recipes',
+            button2: 'Code'
+        }
+    },
+    {
+        title: 'Book-store',
+        date: 'April 15th 2021',
+        img: book_store,
+        text: `The book-store app was build with Angular and Firebase for data storage.
+        All users can see the book list, but only authenticated users can see and manipulate
+         the wish list.`,
+        link: {
+            url1: '',
+            button1: 'Comming soon',
+            url2: 'https://github.com/Danijela2019/book-store',
             button2: 'Code'
         }
     }
