@@ -263,8 +263,8 @@ const timelineData = [
         All users can see the book list, but only authenticated users can see and manipulate
          the wish list.`,
         link: {
-            url1: '',
-            button1: 'Comming soon',
+            url1: 'https://bookstore-65f65.web.app',
+            button1: 'Demo',
             url2: 'https://github.com/Danijela2019/book-store',
             button2: 'Code'
         }
