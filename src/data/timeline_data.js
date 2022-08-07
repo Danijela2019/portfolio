@@ -236,7 +236,7 @@ const timelineData = [
         text: `A budget calculator application where the user is able 
         to follow personal expenses build using Angular with TypeScript.`,
         link: {
-            url1: 'https://danijela2019.github.io/budget-planner-angular/',
+            url1: 'https://budget-planner-angular.netlify.app/',
             button1: 'Demo',
             url2: 'https://github.com/Danijela2019/budget-planner-angular',
             button2: 'Code'
