@@ -9,7 +9,7 @@ const skillsCards = experienceData.map((data) => <ExperienceCard data={data} key
 const ExperienceBoard = () => {
     return (
         <section className="experience_main" id="experience">
-            <h1 className="experience_main_header">Experience</h1>
+            <h1 className="experience_main_header">Education</h1>
             <section className="experience_section">{skillsCards}</section>
         </section>
     );
