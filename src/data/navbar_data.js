@@ -9,7 +9,7 @@ const linkData = [
     },
     {
         to: 'experience',
-        title: 'Experience'
+        title: 'Education'
     },
     {
         to: 'skills',
