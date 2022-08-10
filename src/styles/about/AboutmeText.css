@@ -1,11 +1,12 @@
 .aboutme_paragraph {
-    color: var(--white);
+    color: var(--black);
 }
 
 .aboutme_paragraph {
     text-align: justify;
     padding: 1rem;
     max-width: 30rem;
+    font-size: 1.2rem;
 }
 
 .aboutme_logo_container {
@@ -15,7 +16,7 @@
     margin-top: 1rem;
 }
 .aboutme_text_title {
-    color: var(--white);
+    color: var(--darkBlue);
     font-size: 1.5rem;
 }
 
