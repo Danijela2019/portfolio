@@ -12,7 +12,7 @@ const CVButton = () => {
                 href="https://drive.google.com/file/d/1HaOb84vAzgvN4Y-dYkd1-43UZFX0kT4a/view"
                 target="_blank"
                 rel="noopener noreferrer">
-                <Icon color="black">
+                <Icon color="white">
                     <FaFilePdf />
                 </Icon>
                 Go to CV
