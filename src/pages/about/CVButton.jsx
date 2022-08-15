@@ -9,7 +9,7 @@ const CVButton = () => {
         <button className="aboutme_logo_button">
             <a
                 className="aboutme_logo_cv_achor"
-                href="https://drive.google.com/file/d/1HaOb84vAzgvN4Y-dYkd1-43UZFX0kT4a/view"
+                href="https://drive.google.com/file/d/1x8hbVgY0grfu4OGntg1YTyaIVcFWscAY/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer">
                 <Icon color="white">
