@@ -8,7 +8,7 @@ const linkData = [
         title: 'About'
     },
     {
-        to: 'experience',
+        to: 'education',
         title: 'Education'
     },
     {
