@@ -9,7 +9,9 @@ const timelineCards = timelineData.map((data, index) => <TimelineItem data={data
 const TimelineBoard = () => {
     return (
         <section className="timeline_main" id="projects">
-            <h1 className="timeline_header">Project's timeline</h1>
+            <div className="timeline_header_container">
+                <h1 className="timeline_header">Project's timeline</h1>
+            </div>
             <div className="timeline_container">{timelineCards}</div>
         </section>
     );
