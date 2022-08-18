@@ -8,9 +8,9 @@ const skillsCards = educationData.map((data) => <EducationCard data={data} key={
 
 const EducationBoard = () => {
     return (
-        <section className="experience_main" id="education">
-            <h1 className="experience_main_header">Education</h1>
-            <section className="experience_section">{skillsCards}</section>
+        <section className="education_main" id="education">
+            <h1 className="education_main_header">Education</h1>
+            <section className="education_section">{skillsCards}</section>
         </section>
     );
 };
