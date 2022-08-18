@@ -1,8 +1,8 @@
 import React from 'react';
 
-import '../../styles/experience/ExperienceCard.css';
+import '../../styles/education/EducationCard.css';
 
-const ExperienceCard = ({ data }) => {
+const EducationCard = ({ data }) => {
     return (
         <div className="experience_card">
             <div className="experience_card_top_container">
@@ -16,4 +16,4 @@ const ExperienceCard = ({ data }) => {
     );
 };
 
-export default ExperienceCard;
+export default EducationCard;

@@ -2,7 +2,7 @@ import React from 'react';
 
 import Home from './home';
 import About from './about';
-import Experience from './experience';
+import Education from './education';
 import Skills from './skills';
 import Projects from './projects';
 import NavBar from '../components/Navbar';
@@ -14,7 +14,7 @@ const AllPages = () => {
             <NavBar />
             <Home title="home" id="home" />
             <About title="about" id="about" />
-            <Experience title="experience" id="experience" />
+            <Education title="education" id="education" />
             <Skills title="skills" id="skills" />
             <Projects title="projects" id="projects" />
             <Footer />
