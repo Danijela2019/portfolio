@@ -5,8 +5,6 @@
 }
 
 .experience_card {
-    border-radius: 20px;
-    background-color: var(--white);
     height: fit-content;
     max-width: 60rem;
     margin: 0.8rem;

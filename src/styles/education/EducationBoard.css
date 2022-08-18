@@ -1,18 +1,61 @@
 .education_main {
     height: 92vh;
-}
-
-.education_section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
-.education_main_header {
+
+.education_card_container {
+    width: 100%;
+    position: relative;
+}
+.education_header_container {
+    margin: 2rem auto;
+    position: relative;
+}
+
+.education_color_rectangle {
+    background-color: var(--cyan);
+    width: 14rem;
+    height: 2rem;
+    top: 62%;
+    left: 30%;
+    position: absolute;
+    z-index: 2;
+}
+
+.education_color_big_rectangle {
+    background-color: var(--cyan);
+    width: 8rem;
+    height: 25rem;
+    top: 18%;
+    right: 4%;
+    position: absolute;
+    z-index: 2;
+}
+
+.education_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 4;
+}
+.education_header {
     font-weight: bold;
     font-size: 2rem;
-    color: var(--white);
+    color: var(--darkBlue);
+    background-color: var(--lightBlue);
     font-family: 'Nunito', sans-serif;
     padding: 1rem 0 0.5rem;
+    width: fit-content;
+    position: relative;
+    z-index: 4;
 }
 .education_section {
     display: flex;

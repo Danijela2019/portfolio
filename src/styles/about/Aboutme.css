@@ -5,6 +5,9 @@
     min-height: 92vh;
     background-image: linear-gradient(to right, transparent, #b6bec1, white),
         url('../../images/profile2.png');
+    display: flex;
+    align-items: center;
+    justify-content: end;
 }
 
 .aboutme_text {
@@ -12,18 +15,7 @@
     justify-content: center;
     align-items: center;
     width: 50%;
-}
-
-.aboutme_header {
-    font-weight: bold;
-    font-size: 2rem;
-    color: var(--black);
-    padding: 1rem;
-}
-
-.aboutme_section {
-    display: flex;
-    justify-content: end;
+    height: 100%;
 }
 
 @media only screen and (max-width: 1025px) {
