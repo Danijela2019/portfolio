@@ -10,7 +10,10 @@ const skillsCards = skillData.map((data, index) => <SkillCard data={data} key={i
 const SkillsBoard = () => {
     return (
         <section className="skills_main" id="skills">
-            <h1 className="skills_header">Skill set</h1>
+            <div className="skills_rectangle"></div>
+            <div className='skills_header_wrapper'>
+                <h1 className="skills_header">Technical skills</h1>
+            </div>
             <div className="skills-card_container">
                 {skillsCards}
                 <SkillCardBottom />

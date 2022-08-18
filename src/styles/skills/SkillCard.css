@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    z-index: 4;
 }
 
 .skill-card_logo_img {
