@@ -5,10 +5,6 @@ import '../../styles/about/AboutmeText.css';
 import aboutMeData from '../../data/about_me_data';
 import CVButton from './CVButton';
 
-const EmojiHand = () => {
-    return <Emoji symbol="👋 " label="Waiving hand" />;
-};
-
 const Paragraph = ({ text }) => {
     return <p className="aboutme_paragraph">{text.text}</p>;
 };
@@ -22,7 +18,6 @@ const AboutMeText = () => {
         <article className="aboutme_text_article">
             <h1 className="aboutme_text_title">
                 Hello world
-                <EmojiHand />
             </h1>
             {textData}
             <CVButton />

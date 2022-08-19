@@ -2,11 +2,17 @@
     margin: 0;
     padding-bottom: 1rem;
 }
+.timeline_header_container {
+    display: flex;
+    justify-content: center;
+}
 .timeline_header {
     font-weight: bold;
     font-size: 2rem;
-    color: var(--white);
-    padding-top: 0.5rem;
+    color: var(--darkBlue);
+    background-color: var(--lightBlue);
+    padding: 1rem 0.5rem;
+    width: fit-content;
 }
 
 .timeline_container {
@@ -26,7 +32,6 @@
     height: 100%;
 }
 .timeline_item_content {
-    border-radius: 5px;
     background-color: var(--lightCyan);
     display: flex;
     flex-direction: column;
@@ -75,9 +80,6 @@
     }
     .timeline_item_content::after {
         left: -7.5px;
-    }
-    .timeline_header {
-        padding: 2.5rem 0 0.5rem;
     }
 }
 

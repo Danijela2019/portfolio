@@ -51,7 +51,6 @@
     font-size: 2rem;
     color: var(--darkBlue);
     background-color: var(--lightBlue);
-    font-family: 'Nunito', sans-serif;
     padding: 1rem 0.5rem;
     width: fit-content;
     position: relative;
@@ -73,5 +72,11 @@
     }
     .education_main_header {
         padding: 2.5rem 0 0.5rem;
+    }
+    .education_color_rectangle {
+        width: 12rem;
+    }
+    .education_color_big_rectangle {
+        height: 28rem;
     }
 }

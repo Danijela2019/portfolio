@@ -40,9 +40,13 @@
     .skills_main {
         height: 100%;
     }
+    .skills_rectangle {
+        width: 60%;
+        height: 5rem;
+    }
 }
 @media only screen and (max-width: 720px) {
     .skills_header {
-        top: 6%;
+        top: 2%;
     }
 }
