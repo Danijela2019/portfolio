@@ -56,7 +56,7 @@
 @media only screen and (max-width: 767px) {
     .background_contact {
         flex-direction: row;
-        bottom: 30px;
+        bottom: 45px;
         right: auto;
     }
     .background_contact_anchor {
