@@ -11,6 +11,7 @@ const TimelineBoard = () => {
         <section className="timeline_main" id="projects">
             <div className="timeline_header_container">
                 <h1 className="timeline_header">Project's timeline</h1>
+                <div className="timeline_rectangle"></div>
             </div>
             <div className="timeline_container">{timelineCards}</div>
         </section>
