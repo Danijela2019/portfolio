@@ -37,3 +37,4 @@ export const todo_angular = require('./projects/todo_angular.png');
 export const budget_angular = require('./projects/budget_angular.png');
 export const pizza_recipes = require('./projects/pizza_recipes.png');
 export const book_store = require('./projects/book_store.png');
+export const portfolio = require('./projects/homepage.png');
