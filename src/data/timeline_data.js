@@ -15,7 +15,8 @@ import {
     todo_angular,
     budget_angular,
     pizza_recipes,
-    book_store
+    book_store,
+    portfolio
 } from '../images';
 import postman from '../videos/postman.mp4';
 
@@ -147,6 +148,19 @@ const timelineData = [
         }
     },
     {
+        title: 'Portfolio',
+        date: 'October 20th 2020',
+        img: portfolio,
+        text: `The portfolio page was a SALT project to present myself as a developer.
+         Since it's creation every new project was added to to timeline.`,
+        link: {
+            url1: 'https://danijelamilenkovic.netlify.app/',
+            button1: 'Demo',
+            url2: 'https://github.com/Danijela2019/portfolio',
+            button2: 'Code'
+        }
+    },
+    {
         title: 'The burger-maker',
         date: 'November 1 2020',
         img: theburgermaker,
@@ -270,6 +284,5 @@ const timelineData = [
         }
     }
 ];
-
 
 export default timelineData;
